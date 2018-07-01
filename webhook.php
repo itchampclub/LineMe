@@ -6,7 +6,7 @@
       "timestamp": 1462629479859,
       "source": {
         "type": "user",
-        "userId": "U4af4980629..."
+        "userId": "1591176021..."
       },
       "message": {
         "id": "325708",
@@ -20,7 +20,7 @@
       "timestamp": 1462629479859,
       "source": {
         "type": "user",
-        "userId": "U4af4980629..."
+        "userId": "1591176021..."
       }
     }
   ]
