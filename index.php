@@ -34,6 +34,7 @@ $app->get('/', function($req, $res)
   echo "Welcome at Slim Framework";
 });
  
+
 // buat route untuk webhook
 $app->post('/webhook', function ($request, $response) use ($bot, $pass_signature)
 {
@@ -58,6 +59,7 @@ $app->post('/webhook', function ($request, $response) use ($bot, $pass_signature
     }
  
     // kode aplikasi nanti disini
+
   $data = json_decode($body, true);
   if(is_array($data['events'])){
       foreach ($data['events'] as $event)
