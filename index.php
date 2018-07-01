@@ -6,6 +6,9 @@ use \LINE\LINEBot\HTTPClient\CurlHTTPClient;
 use \LINE\LINEBot\MessageBuilder\MultiMessageBuilder;
 use \LINE\LINEBot\MessageBuilder\TextMessageBuilder;
 use \LINE\LINEBot\MessageBuilder\StickerMessageBuilder;
+use \LINE\LINEBot\MessageBuilder\ImageMessageBuilder;
+use \LINE\LINEBot\MessageBuilder\AudioMessageBuilder;
+use \LINE\LINEBot\MessageBuilder\VideoMessageBuilder;
 use \LINE\LINEBot\SignatureValidator as SignatureValidator;
  
 // set false for production
@@ -31,7 +34,7 @@ $app->get('/', function($req, $res)
 });
  
 // buat route untuk webhook
-$app->post('/webhook', function ($request, $response) use ($bot, $pass_signature)
+$app->post('https://happy-shuiyin.herokuapp.com/index.php/webhook', function ($request, $response) use ($bot, $pass_signature)
 {
     // get request body and line signature header
     $body        = file_get_contents('php://input');
