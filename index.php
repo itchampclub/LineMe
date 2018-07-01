@@ -35,7 +35,7 @@ $app->get('/', function($req, $res)
 });
  
 // buat route untuk webhook
-$app->post('/webhook', function ($request, $response) use ($bot, $pass_signature)
+$app->post('/', function ($request, $response) use ($bot, $pass_signature)
 {
     // get request body and line signature header
     $body        = file_get_contents('php://input');
@@ -80,7 +80,7 @@ $app->post('/webhook', function ($request, $response) use ($bot, $pass_signature
 	}
 });
 
-$app->get('/pushmessage', function($req, $res) use ($bot)
+$app->get('/', function($req, $res) use ($bot)
 {
     // send push message to user
     $userId = 'U08b392c8b5b02d5c2605b02b94186104';
