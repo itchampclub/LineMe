@@ -78,15 +78,5 @@ $app->post('/', function ($request, $response) use ($bot, $pass_signature)
 	    }
 	}
 });
- 
-$app->get('/pushmessage', function($req, $res) use ($bot)
-{
-    // send push message to user
-    $userId = 'U08b392c8b5b02d5c2605b02b94186104';
-    $textMessageBuilder = new TextMessageBuilder('Halo, ini pesan push');
-    $result = $bot->pushMessage($userId, $textMessageBuilder);
-   
-    return $res->withJson($result->getJSONDecodedBody(), $result->getHTTPStatus());
-});
 
 $app->run();
