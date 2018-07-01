@@ -6,7 +6,8 @@
       "timestamp": 1462629479859,
       "source": {
         "type": "user",
-        "userId": "1591176021..."
+        "userId": "U08b392c8b5b02d5c2605b02b94186104..."
+        
       },
       "message": {
         "id": "325708",
@@ -20,7 +21,7 @@
       "timestamp": 1462629479859,
       "source": {
         "type": "user",
-        "userId": "1591176021..."
+        "userId": "U08b392c8b5b02d5c2605b02b94186104..."
       }
     }
   ]
