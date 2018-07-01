@@ -19,5 +19,3 @@ $bot->reply($text);
 //$videoUrl = "https://example.com/avengers.mp4";
 //$coverImage = "https://example.com/cover.jpg";
 //$bot->pushVideo($userId, $videoUrl, $coverImage);
-
-?>
