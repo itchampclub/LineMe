@@ -34,7 +34,7 @@ $app->get('/', function($req, $res)
 });
  
 // buat route untuk webhook
-$app->post('https://happy-shuiyin.herokuapp.com/index.php/webhook', function ($request, $response) use ($bot, $pass_signature)
+$app->post('https://happy-shuiyin.herokuapp.com/index.php', function ($request, $response) use ($bot, $pass_signature)
 {
     // get request body and line signature header
     $body        = file_get_contents('php://input');
@@ -76,7 +76,17 @@ $app->post('https://happy-shuiyin.herokuapp.com/index.php/webhook', function ($r
 	            }
 	        }
 	    }
-	} 
+	}
 });
  
+$app->get('/pushmessage', function($req, $res) use ($bot)
+{
+    // send push message to user
+    $userId = 'U08b392c8b5b02d5c2605b02b94186104';
+    $textMessageBuilder = new TextMessageBuilder('Halo, ini pesan push');
+    $result = $bot->pushMessage($userId, $textMessageBuilder);
+   
+    return $res->withJson($result->getJSONDecodedBody(), $result->getHTTPStatus());
+});
+
 $app->run();
