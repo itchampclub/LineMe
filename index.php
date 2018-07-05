@@ -11,6 +11,6 @@ if($text == "Sriend Help"){
   $bot->reply($reply);
 }else if($text == "Tag Me"){
  $userId = $bot->getUserID();
-  $bot->reply($userId, 'Hello <@' + $userId + '|cal>.');
+  $bot->reply('Hello <@' + $userId + '|cal>.');
 }
 ?>
