@@ -3,7 +3,12 @@ require_once __DIR__ . '/Linebot.php';
 
 $bot = new Linebot();
 $text = $bot->getMessageText();
-$reply = "I am Reply you.";
-$bot->reply($reply);
+if($text == "Sriend Help"){
+  $reply = "How I can Help You?";
+  $bot->reply($reply);
+}else if($text == "Hello"){
+  $reply = "Hello ^^/";
+  $bot->reply($reply);
+}
 
 ?>
