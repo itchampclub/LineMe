@@ -5,5 +5,4 @@ $bot = new Linebot();
 $text = $bot->getMessageText();
 
 $bot->reply('Hello @Sriend');
-}
 ?>
