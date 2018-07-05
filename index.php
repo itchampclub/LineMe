@@ -10,7 +10,7 @@ if($text == "Sriend Help"){
   $reply = "Hello ^^/";
   $bot->reply($reply);
 }else if($text == "Tag Me"){
-  $bot->getuserID();
+ $userId = $bot->getuserID();
   $bot->pushText($userId, 'Hello Simple Text!');
 }
 ?>
