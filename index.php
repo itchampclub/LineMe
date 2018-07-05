@@ -9,6 +9,8 @@ if($text == "Sriend Help"){
 }else if($text == "Hello"){
   $reply = "Hello ^^/";
   $bot->reply($reply);
+}else if($text == "Tag Me"){
+  $bot->getuserID();
+  $bot->pushText($userId, 'Hello Simple Text!');
 }
-
 ?>
