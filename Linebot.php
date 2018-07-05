@@ -7,7 +7,7 @@
 //	UPDATE BY NONTACHAI KORNINAI
 //	25 MARCH 2018
 	
-require_once __DIR__ . '/setting.php';
+require_once __DIR__ . '/Setting.php';
 class Linebot {
 	private $channelAccessToken;
 	private $channelSecret;
