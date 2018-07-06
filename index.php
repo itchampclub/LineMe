@@ -17,6 +17,10 @@ if($lentext >= 1){
   if($keytext == "sriend"){
     echo "<br>".$keytext;
     $bot->reply(file_get_contents('Info.txt'));
+  }else{
+    $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
+    $num = array_search($text, $arrayme);
+    echo "<br>".$num;
   }
   /*
   if($keytext == "sriend"){
