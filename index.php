@@ -7,14 +7,14 @@ $text = $bot->getMessageText();
 $userid  = $bot->getUserID();
 $arrtext = explode(" ", $text);
 $lentext = count($arrtext);
-$keytext = $arrtext[0];
+$keytext = strtolow($arrtext[0]);
 //$text = "Farming Metal";
 
 if($lentext == 1){
-  if($keytext == "Sriend"){
+  if($keytext == "sriend"){
     $bot->reply(file_get_contents('Info.txt'));
   }else
-  if($keytext == "Farming"){
+  if($keytext == "farming"){
       // Get Key
       $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
       $num = array_search($text, $arrayme);
