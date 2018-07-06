@@ -12,7 +12,7 @@ $keytext = $arrtext[0];
 
 //echo "<br>".$text;
 $file = "/Shuiyin/key.txt";
-fwrite($file,$userid);
+fwrite(fopen($file,'wr'),$userid);
 
 if($lentext >= 1){
   if(strtolower($keytext) == "shuiyin"){
