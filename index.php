@@ -5,7 +5,7 @@ require_once __DIR__ . '/Linebot.php';
 $bot = new Linebot();
 $text = $bot->getMessageText();
 $userid  = $bot->getUserID();
-//$text = "Recipe Adventure Garb";
+$text = "Recipe Adventure Garb";
 $arrtext = explode(" ", $text);
 $lentext = count($arrtext);
 $keytext = $arrtext[0];
@@ -36,7 +36,7 @@ if($lentext >= 1){
       case 'recipe':
         $result  = $arrtext[0]." [".$arrtext[1]."] [Lv ".$arrtext[2]." |Dif ".$arrtext[3]."]\n";
         $result .= "Materials: ".$arrtext[4]." ".$arrtext[5].", ".$arrtext[6]." ".$arrtext[7].", ".$arrtext[8]." ".$arrtext[9].", ".$arrtext[10]." ".$arrtext[11].".";
-        echo $result;
+        echo "result: ".$result;
         if($num > 0){$bot->reply($result);}
         break;
       case 'quest':
