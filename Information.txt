@@ -1,10 +1,9 @@
 Help List
 - Sriend Help
-- Sriend Call
-- Sriend Bye
-
+- Farming Metal
 ~~~
 Farming Wood
 Location : -
 Monster  : -
 Material : -
+~~~
