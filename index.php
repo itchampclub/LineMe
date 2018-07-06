@@ -13,10 +13,11 @@ $keytext = strtolower($arrtext[0]);
 
 echo "<br>".$text;
 echo "<br>".$arrtext;
-echo "<br>".$lentext;
 echo "<br>".$keytext;
 
 if($lentext >= 1){
+  echo "<br>".$lentext;
+  /*
   if($keytext == "sriend"){
     $bot->reply(file_get_contents('Info.txt'));
   }else{
@@ -30,6 +31,7 @@ if($lentext >= 1){
     echo "<br>".$result;
     bot->reply($result);
   }
+  */
 }
 
 ?>
