@@ -19,6 +19,7 @@ if($lentext >= 1){
   }else if($keytext == "recipe"){
     $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
     $num = array_search(str_replace($keytext." ","",$text), $arrayme);
+    echo "<br>".str_replace($keytext." ","",$text);
     $arrayme = explode("\n", file_get_contents($keytext."/info.txt"));
     $arrtext = explode("\t",$arrayme[$num]);
     echo "<br>".$arrayme[$num];
