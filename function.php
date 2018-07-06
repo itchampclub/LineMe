@@ -1,5 +1,10 @@
 <?php
 
-function askSriend(){
-  $bot->reply(file_get_contents('Info.txt'));
+function Checkmessage($userId,$text){
+	$file = "/Shuiyin/"$userId.".txt";
+	if(!file_exists($file)){
+		fwrite($file,$text);
+	}
 }
+
+?>

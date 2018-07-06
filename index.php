@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/Linebot.php';
-//require_once __DIR__ . '/function.php';
+require_once __DIR__ . '/function.php';
 
 $bot = new Linebot();
 $text = $bot->getMessageText();
@@ -15,7 +15,7 @@ $keytext = $arrtext[0];
 if($lentext >= 1){
   if(strtolower($keytext) == "shuiyin"){
     //echo "<br>".$keytext;
-    $bot->reply(file_get_contents('Info.txt'));
+    if(strtolower($text) == "shuiyin help"){$bot->reply(file_get_contents('Info.txt'));}
   }else if(strtolower($keytext) == "farming"){
     $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
     $num = array_search($text, $arrayme);
@@ -51,7 +51,9 @@ if($lentext >= 1){
         $result = "Quest Name: ".$arrtext[0];
         //
         if($num > 0){$bot->reply($result);}
+        break;
       default:
+        Checkmessage($userid,$text);
         break;
     }
   }
