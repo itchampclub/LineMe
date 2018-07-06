@@ -13,7 +13,7 @@ $keytext = strtolower($arrtext[0]);
 //echo "<br>".$text;
 
 if($lentext >= 1){
-  if($keytext == "sriend"){
+  if($keytext == "shuiyin"){
     //echo "<br>".$keytext;
     $bot->reply(file_get_contents('Info.txt'));
   }else{
