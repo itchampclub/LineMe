@@ -18,7 +18,7 @@ if($lentext >= 1){
     $bot->reply(file_get_contents('Info.txt'));
   }else if($keytext == "recipe"){
     $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
-    $num = array_search($text, $arrayme);
+    $num = array_search(str_replace($keytext,"",$text), $arrayme);
     $arrayme = explode("\n", file_get_contents($keytext."/info.txt"));
     $arrtext = explode("\t",$arrayme[$num]);
     echo "<br>".$arrayme[$num];
