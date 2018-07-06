@@ -10,7 +10,7 @@ $lentext = count($arrtext);
 $keytext = strtolow($arrtext[0]);
 //$text = "Farming Metal";
 
-if($lentext == 1){
+if($lentext >= 1){
   if($keytext == "sriend"){
     $bot->reply(file_get_contents('Info.txt'));
   }else
