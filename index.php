@@ -21,6 +21,7 @@ if($lentext >= 1){
     $num = array_search($text, $arrayme);
     $arrayme = explode("\n", file_get_contents($keytext."/info.txt"));
     $arrtext = explode("\t",$arrayme[$num]);
+    echo "<br>".$arrtext;
     $result = $arrtext[0]." [".$arrtext[1]."] [Lv ".$arrtext[2]." |Dif ".$arrtext[3]."]";
     echo "<br>".$result;
     $bot->reply($result);
