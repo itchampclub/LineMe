@@ -11,7 +11,7 @@ $lentext = count($arrtext);
 $keytext = $arrtext[0];
 
 //echo "<br>".$text;
-$file = "/Shuiyin/key.txt";
+$file = "Shuiyin/key.txt";
 file_put_contents($file, $text);
 
 if($lentext >= 1){
