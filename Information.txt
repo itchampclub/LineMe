@@ -1,9 +1,5 @@
 Help List
 - Sriend Help
-- Farming Metal
+- Farming *Item/Material*
 ~~~
-Farming Wood
-Location : -
-Monster  : -
-Material : -
 ~~~
