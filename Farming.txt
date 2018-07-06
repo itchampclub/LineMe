@@ -1,0 +1,55 @@
+Farming Metal
+
+Location : Ribisco Cave
+Monster : -
+Material : Broken Metal
+
+Location : Sykea Deep Valley
+Monster : -
+Material : -
+~~~
+Farming Cloth
+
+Location : Ancient Empress's Tomb: Floor 2
+Monster : Cassy
+Material : -
+
+Location : Ancient Empress's Tomb: Floor 3
+Monster : Nightmare Roar
+Material : -
+~~~
+Farming Beast
+
+Location : -
+Monster : -
+Material : -
+~~~
+Farming Wood
+
+Location : Nisel Mountain
+Monster : Shell Mask
+Material : Nisel Wood
+
+Location : Lonogo Canyon
+Monster : Pova
+Material : -
+
+Location : Peligro Landfill
+Monster : -
+Material : -
+~~~
+Farming Medicine
+
+Location : Lonogo Canyon
+Monster : Pova
+Material : -
+
+Location : Ancient Empress's Tomb: Floor 3
+Monster : Nightmare Roar
+Material : Strange Shining Powder
+~~~
+Farming Mana
+
+Location : Ancient Empress's Tomb: Floor 2
+Monster : Cassy
+Material : -
