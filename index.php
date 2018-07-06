@@ -8,19 +8,19 @@ $userid  = $bot->getUserID();
 $text = "Recipe Adventure Garb";
 $arrtext = explode(" ", $text);
 $lentext = count($arrtext);
-$keytext = strtolower($arrtext[0]);
+$keytext = $arrtext[0];
 
 //echo "<br>".$text;
 
 if($lentext >= 1){
-  if($keytext == "shuiyin"){
+  if(strtolower($keytext) == "shuiyin"){
     //echo "<br>".$keytext;
     $bot->reply(file_get_contents('Info.txt'));
-  }else if($keytext == "recipe"){
-    $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
+  }else if(strtolower($keytext) == "recipe"){
+    $arrayme = explode("\n", file_get_contents(strtolower($keytext)."/key.txt"));
     $num = array_search(str_replace($keytext." ","",$text), $arrayme);
     echo "<br>".str_replace($keytext." ","",$text);
-    $arrayme = explode("\n", file_get_contents($keytext."/info.txt"));
+    $arrayme = explode("\n", file_get_contents(strtolower($keytext)."/info.txt"));
     $arrtext = explode("\t",$arrayme[$num]);
     echo "<br>".$arrayme[$num];
     $result = $arrtext[0]." [".$arrtext[1]."] [Lv ".$arrtext[2]." |Dif ".$arrtext[3]."]";
