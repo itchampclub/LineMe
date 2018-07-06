@@ -11,6 +11,8 @@ if($arrtext[0] == "Sriend"){
 }else{  
   $loc1 = strtolower("/".$arrtext[0]."/key.txt");
   $loc2 = strtolower("/".$arrtext[0]."/info.txt");
+  echo $loc1;
+  echo $loc2;
   $arrayme = explode("\n", file_get_contents($loc1));
   $num = array_search($text, $arrayme);
   echo "\nNumber = ".$num;
