@@ -3,7 +3,7 @@ require_once __DIR__ . '/Linebot.php';
 
 $bot = new Linebot();
 $text = $bot->getMessageText();
-$text = "Farming Metal";
+//$text = "Farming Metal";
 
 $arrtext = explode(" ", $text);
 if($arrtext[0] == "Sriend"){
@@ -11,15 +11,12 @@ if($arrtext[0] == "Sriend"){
 }else{  
   $loc1 = strtolower($arrtext[0]."/key.txt");
   $loc2 = strtolower($arrtext[0]."/info.txt");
-  echo file_get_contents($loc1);
-  echo fopen($loc2,'r');
+  // Get Key
   $arrayme = explode("\n", file_get_contents($loc1));
   $num = array_search($text, $arrayme);
-  echo "\nNumber = ".$num;
-
+  // Get Content
   $arrayme = explode("~~~", file_get_contents($loc2));
   $result = $arrayme[$num];
-  echo "\nResult = ".$result;
   $bot->reply($result);
 }
 ?>
