@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/Linebot.php';
-require_once __DIR__ . '/function.php';
+//require_once __DIR__ . '/function.php';
 
 $bot = new Linebot();
 $text = $bot->getMessageText();
@@ -11,6 +11,11 @@ $lentext = count($arrtext);
 $keytext = $arrtext[0];
 
 //echo "<br>".$text;
+$file = "/Shuiyin/"$userId.".txt";
+if(!file_exists($file)){
+  fwrite($file,$text);
+  $bot->reply("...");
+}
 
 if($lentext >= 1){
   if(strtolower($keytext) == "shuiyin"){
