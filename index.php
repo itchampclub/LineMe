@@ -32,11 +32,11 @@ if($lentext >= 1){
     $num = array_search(str_replace($keytext." ","",$text), $arrayme);
     $arrayme = explode("\n", file_get_contents($keytext."/info.txt"));
     $arrtext = explode("\t",$arrayme[$num]);
-
     switch ($keytext) {
       case 'recipe':
         $result  = $arrtext[0]." [".$arrtext[1]."] [Lv ".$arrtext[2]." |Dif ".$arrtext[3]."]\n";
         $result .= "Materials: ".$arrtext[4]." ".$arrtext[5].", ".$arrtext[6]." ".$arrtext[7].", ".$arrtext[8]." ".$arrtext[9].", ".$arrtext[10]." ".$arrtext[11].".";
+        echo $result;
         if($num > 0){$bot->reply($result);}
         break;
       case 'quest':
