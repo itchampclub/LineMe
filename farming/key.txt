@@ -1,7 +1,7 @@
-Farming List
-Farming Metal
-Farming Beast
-Farming Cloth
-Farming Wood
-Farming Medicine
-Farming Mana
+farming list
+farming metal
+farming beast
+farming cloth
+farming wood
+farming medicine
+farming mana
