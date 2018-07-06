@@ -15,7 +15,7 @@ echo "<br>".$text;
 echo "<br>".$arrtext;
 echo "<br>".$lentext;
 echo "<br>".$keytext;
-
+/*
 if($lentext >= 1){
   if($keytext == "sriend"){
   echo "<br> Success.";
@@ -32,5 +32,6 @@ if($lentext >= 1){
       echo "<br>".$result;
       bot->reply($result);
   }
-}
+}*/
+
 ?>
