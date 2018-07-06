@@ -8,8 +8,10 @@ $arrtext = explode(" ", $text);
 if($arrtext[0] == "Sriend"){
   $bot->reply(file_get_contents('Info.txt'));
 }else{  
-  $loc = '/'.$arrtext[0].'/';
+  $arrtext = "Farming Metal";
+  $loc = '/'.$arrtext.'/';
   echo $loc;
+  //$loc = '/'.$arrtext[0].'/';
   $arrayme = explode("\n", file_get_contents($loc.'Key.txt'));
   $num = array_search($text, $arrayme);
   echo $arrayme[0];
