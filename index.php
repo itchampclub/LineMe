@@ -4,8 +4,9 @@ require_once __DIR__ . '/Linebot.php';
 $bot = new Linebot();
 $text = $bot->getMessageText();
 
-$arrayme = split(fopen('keywords.txt','w'),'\n');
+$arrayme = split(fopen('Keywords.txt','w'),'\n');
+echo "array[0] = ".$arrayme[0];
 $result = array_search("Sriend Help", $arrayme);
-echo $result;
+echo "result = ".$result;
 //$bot->reply($result);
 ?>
