@@ -7,7 +7,7 @@ $text = $bot->getMessageText();
 $arrtext = explode(" ", $text);
 if($arrtext[0] == "Sriend"){
   $bot->reply(file_get_contents('Info.txt'));
-}else{
+}else{  
   $loc = '/'.$arrtext[0].'/';
   $arrayme = explode("\n", file_get_contents($loc.'Key.txt'));
   $num = array_search($text, $arrayme);
