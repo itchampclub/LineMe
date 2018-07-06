@@ -19,9 +19,9 @@ if($lentext >= 1){
   }else if($keytext == "recipe"){
     $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
     $num = array_search($text, $arrayme);
-    echo "<br>".$num;
     $arrayme = explode("~~~", file_get_contents($keytext."/info.txt"));
     $arrtext = explode("\t",$arrayme[$num]);
+    $bot->reply($arrayme[$num]);  
     $result = $arrtext[0]." [".$arrtext[1]."] [Lv ".$arrtext[2]." |Dif ".$arrtext[3]."]";
     echo "<br>".$result;
     $bot->reply($result);
