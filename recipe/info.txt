@@ -1,447 +1,211 @@
-~~~
-Wood Sword [OHS] [Lv 1|Dif 0]
-Material : Wood 25pts
-Craft by : Player, NPC
-Event: No
-~~~
-Bow	[BOW] [Lv 1|Dif 1]
-Materials: Wood	3pts
-Craft by : Player, NPC
-Event: No
-~~~
-Bowgun	[BWG] [Lv 1|Dif 1]
-Materials: Dirty Nail	x5,	Wood	3pts
-Craft by : Player, NPC
-Event: No
-~~~
-Spear	[HB] [Lv 1|Dif 1]
-Materials: Metal	3pts
-Craft by : Player, NPC
-Event: No
-~~~
-Knuckles	[KN] [Lv 1|Dif 1]
-Materials:
-Craft by : Player, NPC
-Event: No
-~~~
-Shirasaya	[KTN] [Lv 1|Dif 1]
-Materials:
-Craft by : Player, NPC
-Event: No
-~~~
-Magi Klug	[MD] [Lv 1|Dif 1]
-Materials: Pale Gemstone	x10,	Mana	3pts
-Craft by : Player, NPC
-Event: No
-~~~
-Shortsword	[OHS] [Lv 1|Dif 1]
-Materials: Metal	3pts
-Craft by : Player, NPC
-Event: No
-~~~
-Rod [STF] 1	1	Wood	3pts									YES	YES	NO
-~~~
-Iron Blade [THS] 1	1	Small Hilt	x20									YES	YES	NO
-~~~
-Hard Wood Bow [BOW] 5	10	Tree Root	x35	Wood	25pts							YES	YES	NO
-~~~
-Sword Bowgun [BWG] 5	10	Wolf Fur	x35	Wood	20pts	Metal	5pts					YES	YES	NO
-~~~
-Glaive [HB] 5	10											YES	YES	NO
-~~~
-Iron Knuckles [KN] 5	10											YES	YES	NO
-~~~
-Nameless Uchigatana [KTN] 5	10											YES	YES	NO
-~~~
-Magic Feather [MD] 5	10											YES	YES	NO
-~~~
-Longsword [OHS] 5	10	Small Hilt	x20	Metal	25pts							YES	YES	NO
-~~~
-Wind Staff [STF] 5	10											YES	YES	NO
-~~~
-Heavy Blade [THS] 5	10	Thick Beak	x20	Metal	20pts							YES	YES	NO
-~~~
-Adventure Garb [ARM] 5	15	Bird Wing	x35	Cloth	40pts							YES	YES	NO
-~~~
-Long Bow [BOW] 15	20	Wood Stick	x30	Vine	x20	Beast	50pts					YES	YES	NO
-~~~
-Iron Barrel [BWG] 15	20	Coal	x6	Ribisco Crystal	x4	Wood	30pts	Metal	20pts			YES	YES	NO
-~~~
-Heavy Spear [HB] 15	20											YES	YES	NO
-~~~
-Knuckle Duster [KN] 15	20											YES	YES	NO
-~~~
-Aobato [KTN] 15	20											YES	YES	NO
-~~~
-Magi Vein [MD] 15	20											YES	YES	NO
-~~~
-Gladius [OHS] 15	20	Jagged Fang	x25	Nicked Blade	x25	Metal	50pts					YES	YES	NO
-~~~
-Mage Rod [STF] 15	20											YES	YES	NO
-~~~
-Great Sword [THS] 15	20	Broken Metal	x25	Nisel Wood	x15	Metal	50pts					YES	YES	NO
-~~~
-Leather Armor [ARM] 15	25											YES	YES	NO
-~~~
-Warrior Mail [ARM] 20	25											YES	YES	NO
-~~~
-Mage Robe [ARM] 20	25											YES	YES	NO
-~~~
-Short Musket [BWG] 20	25	Forest Wolf Horn	x35	Ominous Horn	x1	Mana	200pts	Metal	50pts			YES	YES	NO
-~~~
-Magic Crystal Spear [HB] 20	25											YES	YES	NO
-~~~
-Hunter's Garb [ARM] 25	30											YES	YES	NO
-~~~
-Straye Garb [ARM] 25	30											YES	YES	NO
-~~~
-Forest Wolf Garb [ARM] 25	30											YES	YES	NO
-~~~
-Iron Bow [BOW] 25	30	Sweet Smelling Stone	x20	Chaos Stone	x5	Wood	45pts	Metal	30pts			YES	YES	NO
-~~~
-Hunter Bowgun [BWG] 25	30	Burnt Coal	x5	Zoktzda Stone	x2	Wood	75pts					YES	YES	NO
-~~~
-Bardiche [HB] 25	30											YES	YES	NO
-~~~
-Minotaur Knuckles [KN] 25	30	Minotaur Horn	x1	Minotaur Hoof	x4	Beast	250pts	Metal	50pts			YES	YES	NO
-~~~
-Claws [KN] 25	30											YES	YES	NO
-~~~
-Kuwagumo [KTN] 25	30											YES	YES	NO
-~~~
-Elflame [MD] 25	30											YES	YES	NO
-~~~
-Whirlwind [MD] 25	30											YES	YES	NO
-~~~
-Sabre [OHS] 25	30	Fatigued Blade	x20	Shard Fang	x30	Metal	75pts					YES	YES	NO
-~~~
-Minotaur Staff [STF] 25	30	Minotaur Horn	x2	Minotaur Skin	x2	Beast	250pts	Wood	50pts			YES	YES	NO
-~~~
-Water Staff [STF] 25	30											YES	YES	NO
-~~~
-Longblade [THS] 25	30	Sharp Fang	x30	Fatigued Blade	x20	Metal	60pts	Wood	15pts			YES	YES	NO
-~~~
-Fightwear [ARM] 30	35											YES	YES	NO
-~~~
-Plate Armor [ARM] 30	35											YES	YES	NO
-~~~
-Magic Crystal Armor [ARM] 30	35											YES	YES	NO
-~~~
-Forest Wolf Bow [BOW] 30	35	Forest wolf Horn	x20	Broken Metal	x30	Nisel Wood	x20	Wood	200pts			YES	YES	NO
-~~~
-Minotaur Katana [KTN] 30	35	Minotaur Horn	x1	Minotaur Skin	x3	Beast	200pts	Metal	150pts			YES	YES	NO
-~~~
-Brutal Dragon Sword [OHS] 30	35	Brutal Dragon Tail	x1	Brutal Dragon Claw	x4	Metal	100pts	Beast	75pts			YES	YES	NO
-~~~
-Brutal Dragon Armor [ARM] 35	40											YES	YES	NO
-~~~
-Metal Horn Bow [BOW] 35	40	High Quality Iron	x10	Damacus Ore	x5	Metal	60pts	Wood	40pts			YES	YES	NO
-~~~
-Axe Bowgun [BWG] 35	40											YES	YES	NO
-~~~
-Trident [HB] 35	40											YES	YES	NO
-~~~
-Volcanic Claws [KN] 35	40	Flare Volg Claw	x3	Fiery Gemstone	x1	Beast	125pts	Metal	75pts			YES	YES	NO
-~~~
-Jamadhar [KN] 35	40											YES	YES	NO
-~~~
-Kiraboshi [KTN] 35	40											YES	YES	NO
-~~~
-Metal Wings [MD] 35	40											YES	YES	NO
-~~~
-Adel Sword [OHS] 35	40	Globin Claw	x25	Potum Fin	x15	Metal	75pts	Wood	25pts			YES	YES	NO
-~~~
-Rock Staff [STF] 35	40											YES	YES	NO
-~~~
-Bone Blade [THS] 35	40	Cracked Stick	x30	Saw-Toothed Edge	x20	Beast	100pts	Wood	50pts			YES	YES	NO
-~~~
-Volcanic Sword [THS] 35	40	Flare Volg Horn	x2	Fiery Gemstone	x1	Metal	175pts	Mana	25pts			YES	YES	NO
-~~~
-Green Dragon Garb [ARM] 40	45											YES	YES	NO
-~~~
-Ooze Staff [STF] 40	45											YES	YES	NO
-~~~
-Aqua Garb [ARM] 45	50											YES	YES	NO
-~~~
-Steel Leaf Bow [BOW] 45	50											YES	YES	NO
-~~~
-War Bowgun [BWG] 45	50											YES	YES	NO
-~~~
-Magic Bowgun [BWG] 45	50	Mauez's Broken Rod	x3	Runestone	x1	Wood	450pts	Mana	50pts			YES	YES	NO
-~~~
-Archer Bowgun [BWG] 45	50											YES	YES	NO
-~~~
-Blade Lance [HB] 45	50											YES	YES	NO
-~~~
-Mauez's Pole [HB] 45	50	Mauez's Broken Rod	x3	Runestone	x1	Wood	400pts	Mana	100pts			YES	YES	NO
-~~~
-Hard Knuckles [KN] 45	50											YES	YES	NO
-~~~
-Tatetsuba [KTN] 45	50											YES	YES	NO
-~~~
-Vita Cores [MD] 45	50											YES	YES	NO
-~~~
-Fairy Peace [MD] 45	50											YES	YES	NO
-~~~
-Rapier [OHS] 45	50	Fine Sand	x5	Dragon bone	x30	Metal	100pts	Wood	25pts			YES	YES	NO
-~~~
-Fire Staff [STF] 45	50											YES	YES	NO
-~~~
-Fortis Blade [THS] 45	50	Outer World Arm	x15	Dusky Ore	x30	Metal	100pts	Wood	25pts			YES	YES	NO
-~~~
-Ooze Armor [ARM] 50	55											YES	YES	NO
-~~~
-Scale Armor [ARM] 50	55											YES	YES	NO
-~~~
-Iron Exoskeleton Bow [BOW] 50	55	Mineral Scissor	x2	Crustacean Steel	x2	Wood	500pts					YES	YES	NO
-~~~
-Ooze Lamina [KTN] 50	55											YES	YES	NO
-~~~
-Sword of Sin [OHS] 50	55											YES	YES	NO
-~~~
-Iron Exoskeleton Sword [THS] 50	55	Mineral Scissor	x1	Crustacean Steel	x4	Metal	500pts					YES	YES	NO
-~~~
-Oracle Robe [ARM] 55	60											YES	YES	NO
-~~~
-Huge Steel Bow [BOW] 55	60											YES	YES	NO
-~~~
-Edged Bowgun [BWG] 55	60											YES	YES	NO
-~~~
-Mezraq [HB] 55	60											YES	YES	NO
-~~~
-Iron Thorns [KN] 55	60											YES	YES	NO
-~~~
-Koga Koshirae [KTN] 55	60											YES	YES	NO
-~~~
-Elsand [MD] 55	60											YES	YES	NO
-~~~
-Scimitar [OHS] 55	60											YES	YES	NO
-~~~
-Mace of Destruction [STF] 55	60											YES	YES	NO
-~~~
-Storm Staff [STF] 55	60											YES	YES	NO
-~~~
-Flamberge [THS] 55	60											YES	YES	NO
-~~~
-Killer Coat [ARM] 60	65											YES	YES	NO
-~~~
-Knight Armor [ARM] 60	65											YES	YES	NO
-~~~
-Magic Swordsman's Garb [ARM] 60	65											YES	YES	NO
-~~~
-Medic Coat [ARM] 60	65											YES	YES	NO
-~~~
-Empress Bowgun [BWG] 60	65											YES	YES	NO
-~~~
-Berserker Cestuses [KN] 60	65											YES	YES	NO
-~~~
-Empress Soul [MD] 60	65											YES	YES	NO
-~~~
-Berserker Blade [THS] 60	65											YES	YES	NO
-~~~
-Outerworld Armor [ARM] 65	70											YES	YES	NO
-~~~
-Blaster Bow [BOW] 65	70											YES	YES	NO
-~~~
-Ring Bow [BOW] 65	70											YES	YES	NO
-~~~
-Assault Barrel [BWG] 65	70											YES	YES	NO
-~~~
-Knight Lance [HB] 65	70											YES	YES	NO
-~~~
-Floral Lance [HB] 65	70											YES	YES	NO
-~~~
-Tri Claws [KN] 65	70											YES	YES	NO
-~~~
-Shura Koshirae [KTN] 65	70											YES	YES	NO
-~~~
-Magic Brooch [MD] 65	70											YES	YES	NO
-~~~
-Blitz Sword [OHS] 65	70											YES	YES	NO
-~~~
-Phyto Blade [OHS] 65	70											YES	YES	NO
-~~~
-Folium Staff [STF] 65	70											YES	YES	NO
-~~~
-Crystal Wand [STF] 65	70											YES	YES	NO
-~~~
-Hammerfall [THS] 65	70											YES	YES	NO
-~~~
-Desert Mentum [BOW] 70	75											YES	YES	NO
-~~~
-Faldios [KTN] 70	75											YES	YES	NO
-~~~
-Desert Anfel [THS] 70	75											YES	YES	NO
-~~~
-Grand Horn Bow [BOW] 75	80											YES	YES	NO
-~~~
-Scrader Barrel [BWG] 75	80	Strange Head Part	x2	Scrader Crystal	x2	Metal	250pts	Wood	150pts			YES	YES	NO
-~~~
-Plasma Gun [BWG] 75	80											YES	YES	NO
-~~~
-Thunder Spear [HB] 75	80											YES	YES	NO
-~~~
-Emeldia [KN] 75	80	Jade Raptor Horn	x2	Jade Raptor Armor Fur	x4	Metal	500pts	Beast	300pts			YES	YES	NO
-~~~
-Katar [KN] 75	80											YES	YES	NO
-~~~
-Sumire Renkyoku [KTN] 75	80											YES	YES	NO
-~~~
-Jade Wings [MD] 75	80											YES	YES	NO
-~~~
-La Lluvia [MD] 75	80											YES	YES	NO
-~~~
-Black Sword of Delusion [OHS] 75	80	Ominous Crystal	x1	Evil Energy of Delusion	x2	Metal	500pts	Beast	250pts			YES	YES	NO
-~~~
-Ilwoon [OHS] 75	80											YES	YES	NO
-~~~
-Scrader Mace [STF] 75	80											YES	YES	NO
-~~~
-Devil's Staff [STF] 75	80											YES	YES	NO
-~~~
-Flame Blade [THS] 75	80	Stone of Sublimation	x6	Gemstone of Sublimation	x3	Scorching Onion	x1	Metal	200pts			YES	YES	NO
-~~~
-Brigandine [ARM] 80	85											YES	YES	NO
-~~~
-Icebow Verglas [BOW] 80	85											YES	YES	NO
-~~~
-Ice Gun Hail [BWG] 80	85											YES	YES	NO
-~~~
-Ice Spear Glaso [HB] 80	85											YES	YES	NO
-~~~
-Iceclaw Snow [KN] 80	85											YES	YES	NO
-~~~
-Ice Katana Ace [KTN] 80	85											YES	YES	NO
-~~~
-Icecrystal Icicle [MD] 80	85											YES	YES	NO
-~~~
-Icebrand Glacier [OHS] 80	85											YES	YES	NO
-~~~
-Icestaff Frigus [STF] 80	85											YES	YES	NO
-~~~
-Frostbrand Rime [THS] 80	85											YES	YES	NO
-~~~
-Panzer Bow [BOW] 85	90											YES	YES	NO
-~~~
-Double Strings [BWG] 85	90											YES	YES	NO
-~~~
-Pollaxe [HB] 85	90											YES	YES	NO
-~~~
-Devil Claws [KN] 85	90											YES	YES	NO
-~~~
-Kuro Momiji [KTN] 85	90											YES	YES	NO
-~~~
-Layered Magic System [MD] 85	90											YES	YES	NO
-~~~
-Indigo Sword [OHS] 85	90											YES	YES	NO
-~~~
-Sage Staff [STF] 85	90											YES	YES	NO
-~~~
-Desperanza [THS] 85	90											YES	YES	NO
-~~~
-Armigma [ARM] 90	95											YES	YES	NO
-~~~
-Praetor Suit [ARM] 90	95											YES	YES	NO
-~~~
-Mafu Swordstick [KTN] 90	95											YES	YES	NO
-~~~
-Twilight Dress [ARM] 95	100											YES	YES	NO
-~~~
-Skeleton Bow [BOW] 95	100											YES	YES	NO
-~~~
-Bexiz Bowgun [BWG] 95	100											YES	YES	NO
-~~~
-Bayonet [BWG] 95	100											YES	YES	NO
-~~~
-Intruder [HB] 95	100											YES	YES	NO
-~~~
-Paladin Spear [HB] 95	100											YES	YES	NO
-~~~
-Gardien [KN] 95	100											YES	YES	NO
-~~~
-Epetal [KN] 95	100											YES	YES	NO
-~~~
-Kuro Tsurubami [KTN] 95	100											YES	YES	NO
-~~~
-Aranea Ore [MD] 95	100											YES	YES	NO
-~~~
-El Vento [MD] 95	100											YES	YES	NO
-~~~
-Dark General's Sword [OHS] 95	100											YES	YES	NO
-~~~
-Soldier Sword [OHS] 95	100											YES	YES	NO
-~~~
-Bexiz Staff [STF] 95	100											YES	YES	NO
-~~~
-Priest Mace [STF] 95	100											YES	YES	NO
-~~~
-Sealing Blade [THS] 95	100											YES	YES	NO
-~~~
-Wind Plunder [THS] 95	100											YES	YES	NO
-~~~
-Assassin Garb [ARM] 100	105											YES	YES	NO
-~~~
-Fortistra [ARM] 105	110											YES	YES	NO
-~~~
-Leve Bow [BOW] 105	110											YES	YES	NO
-~~~
-Seffed Bow [BOW] 105	110											YES	YES	NO
-~~~
-Metal Bowgun [BWG] 105	110											YES	YES	NO
-~~~
-Battle Spear [HB] 105	110											YES	YES	NO
-~~~
-Zaif Sadik [KN] 105	110	Iconos Core	x2	Repair Tool Kit	x1	Metal	800pts	Medicine	300pts			YES	YES	NO
-~~~
-Iron Bear Claw [KN] 105	110											YES	YES	NO
-~~~
-Iron Fang [KTN] 105	110											YES	YES	NO
-~~~
-Floral Light [MD] 105	110											YES	YES	NO
-~~~
-Wrath of Vulcan [MD] 105	110											YES	YES	NO
-~~~
-Imperial Sword [OHS] 105	110											YES	YES	NO
-~~~
-Leve Fang [OHS] 105	110											YES	YES	NO
-~~~
-Vulcan Staff [STF] 105	110											YES	YES	NO
-~~~
-Crystal Rod [STF] 105	110											YES	YES	NO
-~~~
-Sinergatis [THS] 105	110											YES	YES	NO
-~~~
-Zweihander [THS] 105	110											YES	YES	NO
-~~~
-Thunderbolt Bow [BOW] 115	120											YES	YES	NO
-~~~
-Rifled Musket [BWG] 115	120											YES	YES	NO
-~~~
-Fusee Trahison [BWG] 115	120											YES	YES	NO
-~~~
-Noble Glaive [HB] 115	120											YES	YES	NO
-~~~
-Einsamkeit [HB] 115	120											YES	YES	NO
-~~~
-Chakrums [KN] 115	120											YES	YES	NO
-~~~
-Holy Robe [ARM] 120	125											YES	YES	NO
-~~~
-Fortuita Vestibus [ARM] 120	125											YES	YES	NO
-~~~
-Diomedea Suit [ARM] 120	125											YES	YES	NO
-~~~
-Mozt Armor [ARM] 125	130											YES	YES	NO
-~~~
-Caro Tesla [KTN] 125	130	Mystic Crystal Stone	x1	Magic Charged Rock	x2	Wood	1000pts	Metal	300pts			YES	YES	NO
-~~~
-Zahhak Sword [OHS] 125	130										-	YES	YES	NO
-~~~
-Spirit's Tear [STF] 125	130	Forest Spirit's Kotodama	x1	Magic Charged Rock	x2	Wood	1000pts	Mana	300pts			YES	YES	NO
-~~~
-Waldfee [THS] 125	130	Mystic Crystal Stone	x1	Magic Charged Rock	x2	Wood	1000pts	Metal	300pts		-	YES	YES	NO
-~~~
-Cake Sword [OHS] 												YES	YES	YES
-~~~
-Festival Sword [OHS] 												YES	YES	YES
-~~~
+Adventure Garb	ARM	5	15	Bird Wing	x35	Cloth	40pts							YES	YES	NO
+Leather Armor	ARM	15	25											YES	YES	NO
+Warrior Mail	ARM	20	25											YES	YES	NO
+Mage Robe	ARM	20	25											YES	YES	NO
+Hunter's Garb	ARM	25	30											YES	YES	NO
+Straye Garb	ARM	25	30											YES	YES	NO
+Forest Wolf Garb	ARM	25	30											YES	YES	NO
+Fightwear	ARM	30	35											YES	YES	NO
+Plate Armor	ARM	30	35											YES	YES	NO
+Magic Crystal Armor	ARM	30	35											YES	YES	NO
+Brutal Dragon Armor	ARM	35	40											YES	YES	NO
+Green Dragon Garb	ARM	40	45											YES	YES	NO
+Aqua Garb	ARM	45	50											YES	YES	NO
+Ooze Armor	ARM	50	55											YES	YES	NO
+Scale Armor	ARM	50	55											YES	YES	NO
+Oracle Robe	ARM	55	60											YES	YES	NO
+Killer Coat	ARM	60	65											YES	YES	NO
+Knight Armor	ARM	60	65											YES	YES	NO
+Magic Swordsman's Garb	ARM	60	65											YES	YES	NO
+Medic Coat	ARM	60	65											YES	YES	NO
+Outerworld Armor	ARM	65	70											YES	YES	NO
+Brigandine	ARM	80	85											YES	YES	NO
+Armigma	ARM	90	95											YES	YES	NO
+Praetor Suit	ARM	90	95											YES	YES	NO
+Twilight Dress	ARM	95	100											YES	YES	NO
+Assassin Garb	ARM	100	105											YES	YES	NO
+Fortistra	ARM	105	110											YES	YES	NO
+Holy Robe	ARM	120	125											YES	YES	NO
+Fortuita Vestibus	ARM	120	125											YES	YES	NO
+Diomedea Suit	ARM	120	125											YES	YES	NO
+Mozt Armor	ARM	125	130											YES	YES	NO
+Bow	BOW	1	1	Wood	3pts									YES	YES	NO
+Hard Wood Bow	BOW	5	10	Tree Root	x35	Wood	25pts							YES	YES	NO
+Long Bow	BOW	15	20	Wood Stick	x30	Vine	x20	Beast	50pts					YES	YES	NO
+Iron Bow	BOW	25	30	Sweet Smelling Stone	x20	Chaos Stone	x5	Wood	45pts	Metal	30pts			YES	YES	NO
+Forest Wolf Bow	BOW	30	35	Forest wolf Horn	x20	Broken Metal	x30	Nisel Wood	x20	Wood	200pts			YES	YES	NO
+Metal Horn Bow	BOW	35	40	High Quality Iron	x10	Damacus Ore	x5	Metal	60pts	Wood	40pts			YES	YES	NO
+Steel Leaf Bow	BOW	45	50											YES	YES	NO
+Iron Exoskeleton Bow	BOW	50	55	Mineral Scissor	x2	Crustacean Steel	x2	Wood	500pts					YES	YES	NO
+Huge Steel Bow	BOW	55	60											YES	YES	NO
+Blaster Bow	BOW	65	70											YES	YES	NO
+Ring Bow	BOW	65	70											YES	YES	NO
+Desert Mentum	BOW	70	75											YES	YES	NO
+Grand Horn Bow	BOW	75	80											YES	YES	NO
+Icebow Verglas	BOW	80	85											YES	YES	NO
+Panzer Bow	BOW	85	90											YES	YES	NO
+Skeleton Bow	BOW	95	100											YES	YES	NO
+Leve Bow	BOW	105	110											YES	YES	NO
+Seffed Bow	BOW	105	110											YES	YES	NO
+Thunderbolt Bow	BOW	115	120											YES	YES	NO
+Bowgun	BWG	1	1	Dirty Nail	x5	Wood	3pts							YES	YES	NO
+Sword Bowgun	BWG	5	10	Wolf Fur	x35	Wood	20pts	Metal	5pts					YES	YES	NO
+Iron Barrel	BWG	15	20	Coal	x6	Ribisco Crystal	x4	Wood	30pts	Metal	20pts			YES	YES	NO
+Short Musket	BWG	20	25	Forest Wolf Horn	x35	Ominous Horn	x1	Mana	200pts	Metal	50pts			YES	YES	NO
+Hunter Bowgun	BWG	25	30	Burnt Coal	x5	Zoktzda Stone	x2	Wood	75pts					YES	YES	NO
+Axe Bowgun	BWG	35	40											YES	YES	NO
+War Bowgun	BWG	45	50											YES	YES	NO
+Magic Bowgun	BWG	45	50	Mauez's Broken Rod	x3	Runestone	x1	Wood	450pts	Mana	50pts			YES	YES	NO
+Archer Bowgun	BWG	45	50											YES	YES	NO
+Edged Bowgun	BWG	55	60											YES	YES	NO
+Empress Bowgun	BWG	60	65											YES	YES	NO
+Assault Barrel	BWG	65	70											YES	YES	NO
+Scrader Barrel	BWG	75	80	Strange Head Part	x2	Scrader Crystal	x2	Metal	250pts	Wood	150pts			YES	YES	NO
+Plasma Gun	BWG	75	80											YES	YES	NO
+Ice Gun Hail	BWG	80	85											YES	YES	NO
+Double Strings	BWG	85	90											YES	YES	NO
+Bexiz Bowgun	BWG	95	100											YES	YES	NO
+Bayonet	BWG	95	100											YES	YES	NO
+Metal Bowgun	BWG	105	110											YES	YES	NO
+Rifled Musket	BWG	115	120											YES	YES	NO
+Fusee Trahison	BWG	115	120											YES	YES	NO
+Spear	HB	1	1	Metal	3pts									YES	YES	NO
+Glaive	HB	5	10											YES	YES	NO
+Heavy Spear	HB	15	20											YES	YES	NO
+Magic Crystal Spear	HB	20	25											YES	YES	NO
+Bardiche	HB	25	30											YES	YES	NO
+Trident	HB	35	40											YES	YES	NO
+Blade Lance	HB	45	50											YES	YES	NO
+Mauez's Pole	HB	45	50	Mauez's Broken Rod	x3	Runestone	x1	Wood	400pts	Mana	100pts			YES	YES	NO
+Mezraq	HB	55	60											YES	YES	NO
+Knight Lance	HB	65	70											YES	YES	NO
+Floral Lance	HB	65	70											YES	YES	NO
+Thunder Spear	HB	75	80											YES	YES	NO
+Ice Spear Glaso	HB	80	85											YES	YES	NO
+Pollaxe	HB	85	90											YES	YES	NO
+Intruder	HB	95	100											YES	YES	NO
+Paladin Spear	HB	95	100											YES	YES	NO
+Battle Spear	HB	105	110											YES	YES	NO
+Noble Glaive	HB	115	120											YES	YES	NO
+Einsamkeit	HB	115	120											YES	YES	NO
+Knuckles	KN	1	1											YES	YES	NO
+Iron Knuckles	KN	5	10											YES	YES	NO
+Knuckle Duster	KN	15	20											YES	YES	NO
+Minotaur Knuckles	KN	25	30	Minotaur Horn	x1	Minotaur Hoof	x4	Beast	250pts	Metal	50pts			YES	YES	NO
+Claws	KN	25	30											YES	YES	NO
+Volcanic Claws	KN	35	40	Flare Volg Claw	x3	Fiery Gemstone	x1	Beast	125pts	Metal	75pts			YES	YES	NO
+Jamadhar	KN	35	40											YES	YES	NO
+Hard Knuckles	KN	45	50											YES	YES	NO
+Iron Thorns	KN	55	60											YES	YES	NO
+Berserker Cestuses	KN	60	65											YES	YES	NO
+Tri Claws	KN	65	70											YES	YES	NO
+Emeldia	KN	75	80	Jade Raptor Horn	x2	Jade Raptor Armor Fur	x4	Metal	500pts	Beast	300pts			YES	YES	NO
+Katar	KN	75	80											YES	YES	NO
+Iceclaw Snow	KN	80	85											YES	YES	NO
+Devil Claws	KN	85	90											YES	YES	NO
+Gardien	KN	95	100											YES	YES	NO
+Epetal	KN	95	100											YES	YES	NO
+Zaif Sadik	KN	105	110	Iconos Core	x2	Repair Tool Kit	x1	Metal	800pts	Medicine	300pts			YES	YES	NO
+Iron Bear Claw	KN	105	110											YES	YES	NO
+Chakrums	KN	115	120											YES	YES	NO
+Shirasaya	KTN	1	1											YES	YES	NO
+Nameless Uchigatana	KTN	5	10											YES	YES	NO
+Aobato	KTN	15	20											YES	YES	NO
+Kuwagumo	KTN	25	30											YES	YES	NO
+Minotaur Katana	KTN	30	35	Minotaur Horn	x1	Minotaur Skin	x3	Beast	200pts	Metal	150pts			YES	YES	NO
+Kiraboshi	KTN	35	40											YES	YES	NO
+Tatetsuba	KTN	45	50											YES	YES	NO
+Ooze Lamina	KTN	50	55											YES	YES	NO
+Koga Koshirae	KTN	55	60											YES	YES	NO
+Shura Koshirae	KTN	65	70											YES	YES	NO
+Faldios	KTN	70	75											YES	YES	NO
+Sumire Renkyoku	KTN	75	80											YES	YES	NO
+Ice Katana Ace	KTN	80	85											YES	YES	NO
+Kuro Momiji	KTN	85	90											YES	YES	NO
+Mafu Swordstick	KTN	90	95											YES	YES	NO
+Kuro Tsurubami	KTN	95	100											YES	YES	NO
+Iron Fang	KTN	105	110											YES	YES	NO
+Caro Tesla	KTN	125	130	Mystic Crystal Stone	x1	Magic Charged Rock	x2	Wood	1000pts	Metal	300pts			YES	YES	NO
+Magi Klug	MD	1	1	Pale Gemstone	x10	Mana	3pts							YES	YES	NO
+Magic Feather	MD	5	10											YES	YES	NO
+Magi Vein	MD	15	20											YES	YES	NO
+Elflame	MD	25	30											YES	YES	NO
+Whirlwind	MD	25	30											YES	YES	NO
+Metal Wings	MD	35	40											YES	YES	NO
+Vita Cores	MD	45	50											YES	YES	NO
+Fairy Peace	MD	45	50											YES	YES	NO
+Elsand	MD	55	60											YES	YES	NO
+Empress Soul	MD	60	65											YES	YES	NO
+Magic Brooch	MD	65	70											YES	YES	NO
+Jade Wings	MD	75	80											YES	YES	NO
+La Lluvia	MD	75	80											YES	YES	NO
+Icecrystal Icicle	MD	80	85											YES	YES	NO
+Layered Magic System	MD	85	90											YES	YES	NO
+Aranea Ore	MD	95	100											YES	YES	NO
+El Vento	MD	95	100											YES	YES	NO
+Floral Light	MD	105	110											YES	YES	NO
+Wrath of Vulcan	MD	105	110											YES	YES	NO
+Wood Sword	OHS	1	0	Wood	25pts									YES	YES	NO
+Shortsword	OHS	1	1	Metal	3pts									YES	YES	NO
+Longsword	OHS	5	10	Small Hilt	x20	Metal	25pts							YES	YES	NO
+Gladius	OHS	15	20	Jagged Fang	x25	Nicked Blade	x25	Metal	50pts					YES	YES	NO
+Sabre	OHS	25	30	Fatigued Blade	x20	Shard Fang	x30	Metal	75pts					YES	YES	NO
+Brutal Dragon Sword	OHS	30	35	Brutal Dragon Tail	x1	Brutal Dragon Claw	x4	Metal	100pts	Beast	75pts			YES	YES	NO
+Adel Sword	OHS	35	40	Globin Claw	x25	Potum Fin	x15	Metal	75pts	Wood	25pts			YES	YES	NO
+Rapier	OHS	45	50	Fine Sand	x5	Dragon bone	x30	Metal	100pts	Wood	25pts			YES	YES	NO
+Sword of Sin	OHS	50	55											YES	YES	NO
+Scimitar	OHS	55	60											YES	YES	NO
+Blitz Sword	OHS	65	70											YES	YES	NO
+Phyto Blade	OHS	65	70											YES	YES	NO
+Black Sword of Delusion	OHS	75	80	Ominous Crystal	x1	Evil Energy of Delusion	x2	Metal	500pts	Beast	250pts			YES	YES	NO
+Ilwoon	OHS	75	80											YES	YES	NO
+Icebrand Glacier	OHS	80	85											YES	YES	NO
+Indigo Sword	OHS	85	90											YES	YES	NO
+Dark General's Sword	OHS	95	100											YES	YES	NO
+Soldier Sword	OHS	95	100											YES	YES	NO
+Imperial Sword	OHS	105	110											YES	YES	NO
+Leve Fang	OHS	105	110											YES	YES	NO
+Zahhak Sword	OHS	125	130										-	YES	YES	NO
+Cake Sword	OHS													YES	YES	YES
+Festival Sword	OHS													YES	YES	YES
+Rod	STF	1	1	Wood	3pts									YES	YES	NO
+Wind Staff	STF	5	10											YES	YES	NO
+Mage Rod	STF	15	20											YES	YES	NO
+Minotaur Staff	STF	25	30	Minotaur Horn	x2	Minotaur Skin	x2	Beast	250pts	Wood	50pts			YES	YES	NO
+Water Staff	STF	25	30											YES	YES	NO
+Rock Staff	STF	35	40											YES	YES	NO
+Ooze Staff	STF	40	45											YES	YES	NO
+Fire Staff	STF	45	50											YES	YES	NO
+Mace of Destruction	STF	55	60											YES	YES	NO
+Storm Staff	STF	55	60											YES	YES	NO
+Folium Staff	STF	65	70											YES	YES	NO
+Crystal Wand	STF	65	70											YES	YES	NO
+Scrader Mace	STF	75	80											YES	YES	NO
+Devil's Staff	STF	75	80											YES	YES	NO
+Icestaff Frigus	STF	80	85											YES	YES	NO
+Sage Staff	STF	85	90											YES	YES	NO
+Bexiz Staff	STF	95	100											YES	YES	NO
+Priest Mace	STF	95	100											YES	YES	NO
+Vulcan Staff	STF	105	110											YES	YES	NO
+Crystal Rod	STF	105	110											YES	YES	NO
+Spirit's Tear	STF	125	130	Forest Spirit's Kotodama	x1	Magic Charged Rock	x2	Wood	1000pts	Mana	300pts			YES	YES	NO
+Iron Blade	THS	1	1	Small Hilt	x20									YES	YES	NO
+Heavy Blade	THS	5	10	Thick Beak	x20	Metal	20pts							YES	YES	NO
+Great Sword	THS	15	20	Broken Metal	x25	Nisel Wood	x15	Metal	50pts					YES	YES	NO
+Longblade	THS	25	30	Sharp Fang	x30	Fatigued Blade	x20	Metal	60pts	Wood	15pts			YES	YES	NO
+Bone Blade	THS	35	40	Cracked Stick	x30	Saw-Toothed Edge	x20	Beast	100pts	Wood	50pts			YES	YES	NO
+Volcanic Sword	THS	35	40	Flare Volg Horn	x2	Fiery Gemstone	x1	Metal	175pts	Mana	25pts			YES	YES	NO
+Fortis Blade	THS	45	50	Outer World Arm	x15	Dusky Ore	x30	Metal	100pts	Wood	25pts			YES	YES	NO
+Iron Exoskeleton Sword	THS	50	55	Mineral Scissor	x1	Crustacean Steel	x4	Metal	500pts					YES	YES	NO
+Flamberge	THS	55	60											YES	YES	NO
+Berserker Blade	THS	60	65											YES	YES	NO
+Hammerfall	THS	65	70											YES	YES	NO
+Desert Anfel	THS	70	75											YES	YES	NO
+Flame Blade	THS	75	80	Stone of Sublimation	x6	Gemstone of Sublimation	x3	Scorching Onion	x1	Metal	200pts			YES	YES	NO
+Frostbrand Rime	THS	80	85											YES	YES	NO
+Desperanza	THS	85	90											YES	YES	NO
+Sealing Blade	THS	95	100											YES	YES	NO
+Wind Plunder	THS	95	100											YES	YES	NO
+Sinergatis	THS	105	110											YES	YES	NO
+Zweihander	THS	105	110											YES	YES	NO
+Waldfee	THS	125	130	Mystic Crystal Stone	x1	Magic Charged Rock	x2	Wood	1000pts	Metal	300pts		-	YES	YES	NO
