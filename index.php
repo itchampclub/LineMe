@@ -37,10 +37,9 @@ if($lentext >= 1){
       case 'recipe':
         $result  = $arrtext[0]." [".$arrtext[1]."] [Lv ".$arrtext[2]." |Dif ".$arrtext[3]."]\n";
         $result .= "Materials: ".$arrtext[4]." ".$arrtext[5];
-        $result .= if($arrtext[6]){", ".$arrtext[6]." ".$arrtext[7];}else{"";}
-        $result .= if($arrtext[6]){", ".$arrtext[8]." ".$arrtext[9];}else{"";}
-        $result .= if($arrtext[6]){", ".$arrtext[10]." ".$arrtext[11];}else{".";}
-
+        if($arrtext[6] != "-"){$result .= ", ".$arrtext[6]." ".$arrtext[7];}
+        if($arrtext[8] != "-"){$result .= ", ".$arrtext[8]." ".$arrtext[9];}
+        if($arrtext[10] != "-"){$result .= ", ".$arrtext[10]." ".$arrtext[11];}
         if($num > 0){$bot->reply($result);}
         break;
       case 'quest':
