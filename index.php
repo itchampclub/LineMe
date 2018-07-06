@@ -36,7 +36,7 @@ if($lentext >= 1){
     switch ($keytext) {
       case 'recipe':
         $result  = $arrtext[0]." [".$arrtext[1]."] [Lv ".$arrtext[2]." |Dif ".$arrtext[3]."]\n";
-        $result .= "Materials: ".$arrtext[4]." ".$arrtext[5];
+        $result .= "Materials: \n".$arrtext[4]." ".$arrtext[5];
         if($arrtext[6]  != "-" && $arrtext[6]  != ""){$result .= "\n, ".$arrtext[6] ." ".$arrtext[7];}
         if($arrtext[8]  != "-" && $arrtext[8]  != ""){$result .= "\n, ".$arrtext[8] ." ".$arrtext[9];}
         if($arrtext[10] != "-" && $arrtext[10] != ""){$result .= "\n, ".$arrtext[10]." ".$arrtext[11];}
