@@ -4,10 +4,16 @@ require_once __DIR__ . '/Linebot.php';
 $bot = new Linebot();
 $text = $bot->getMessageText();
 
-$arrayme = explode("\n", file_get_contents('Keywords.txt'));
-$num = array_search($text, $arrayme);
+$arrtext = explode(" ", $text);
+if($arrtext[0] == "Sriend"){
+  $bot->reply(file_get_contents('Key.txt'));
+}else{
+  $loc = '/'.$arrtext[0].'/';
+  $arrayme = explode("\n", file_get_contents($loc.'Key.txt'));
+  $num = array_search($text, $arrayme);
 
-$arrayme = explode("~~~", file_get_contents('Information.txt'));
-$result = $arrayme[$num];
-$bot->reply($result);
+  $arrayme = explode("~~~", file_get_contents($loc.'Info.txt'));
+  $result = $arrayme[$num];
+  $bot->reply($result);
+}
 ?>
