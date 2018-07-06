@@ -10,11 +10,11 @@ $lentext = count($arrtext);
 $keytext = $arrtext[0];
 //$text = "Farming Metal";
 
-if($lentext > 1){
-  switch($keytext){
-    case "Sriend":
-      $bot->reply(file_get_contents('Info.txt'));
-    case "Farming":
+if($lentext == 1){
+  if($keytext == "Sriend"){
+    $bot->reply(file_get_contents('Info.txt'));
+  }else
+  if($keytext == "Farming"){
       // Get Key
       $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
       $num = array_search($text, $arrayme);
@@ -22,8 +22,6 @@ if($lentext > 1){
       $arrayme = explode("~~~", file_get_contents($keytext."/info.txt"));
       $result = $arrayme[$num];
 			bot->reply($result);
-    default:
-    return 0;
   }
 }
 ?>
