@@ -3,15 +3,14 @@ require_once __DIR__ . '/Linebot.php';
 
 $bot = new Linebot();
 $text = $bot->getMessageText();
+$text = "Farming Metal";
 
 $arrtext = explode(" ", $text);
 if($arrtext[0] == "Sriend"){
   $bot->reply(file_get_contents('Info.txt'));
 }else{  
-  $arrtext = "Farming Metal";
-  $loc = '/'.$arrtext.'/';
+  $loc = '/'.$arrtext[0].'/';
   echo $loc;
-  //$loc = '/'.$arrtext[0].'/';
   $arrayme = explode("\n", file_get_contents($loc.'Key.txt'));
   $num = array_search($text, $arrayme);
   echo $arrayme[0];
