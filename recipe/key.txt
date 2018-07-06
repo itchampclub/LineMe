@@ -1,212 +1,212 @@
-Recipe List
-Adventure Garb
-Leather Armor
-Warrior Mail
-Mage Robe
-Hunter's Garb
-Straye Garb
-Forest Wolf Garb
-Fightwear
-Plate Armor
-Magic Crystal Armor
-Brutal Dragon Armor
-Green Dragon Garb
-Aqua Garb
-Ooze Armor
-Scale Armor
-Oracle Robe
-Killer Coat
-Knight Armor
-Magic Swordsman's Garb
-Medic Coat
-Outerworld Armor
-Brigandine
-Armigma
-Praetor Suit
-Twilight Dress
-Assassin Garb
-Fortistra
-Holy Robe
-Fortuita Vestibus
-Diomedea Suit
-Mozt Armor
-Bow
-Hard Wood Bow
-Long Bow
-Iron Bow
-Forest Wolf Bow
-Metal Horn Bow
-Steel Leaf Bow
-Iron Exoskeleton Bow
-Huge Steel Bow
-Blaster Bow
-Ring Bow
-Desert Mentum
-Grand Horn Bow
-Icebow Verglas
-Panzer Bow
-Skeleton Bow
-Leve Bow
-Seffed Bow
-Thunderbolt Bow
-Bowgun
-Sword Bowgun
-Iron Barrel
-Short Musket
-Hunter Bowgun
-Axe Bowgun
-War Bowgun
-Magic Bowgun
-Archer Bowgun
-Edged Bowgun
-Empress Bowgun
-Assault Barrel
-Scrader Barrel
-Plasma Gun
-Ice Gun Hail
-Double Strings
-Bexiz Bowgun
-Bayonet
-Metal Bowgun
-Rifled Musket
-Fusee Trahison
-Spear
-Glaive
-Heavy Spear
-Magic Crystal Spear
-Bardiche
-Trident
-Blade Lance
-Mauez's Pole
-Mezraq
-Knight Lance
-Floral Lance
-Thunder Spear
-Ice Spear Glaso
-Pollaxe
-Intruder
-Paladin Spear
-Battle Spear
-Noble Glaive
-Einsamkeit
-Knuckles
-Iron Knuckles
-Knuckle Duster
-Minotaur Knuckles
-Claws
-Volcanic Claws
-Jamadhar
-Hard Knuckles
-Iron Thorns
-Berserker Cestuses
-Tri Claws
-Emeldia
-Katar
-Iceclaw Snow
-Devil Claws
-Gardien
-Epetal
-Zaif Sadik
-Iron Bear Claw
-Chakrums
-Shirasaya
-Nameless Uchigatana
-Aobato
-Kuwagumo
-Minotaur Katana
-Kiraboshi
-Tatetsuba
-Ooze Lamina
-Koga Koshirae
-Shura Koshirae
-Faldios
-Sumire Renkyoku
-Ice Katana Ace
-Kuro Momiji
-Mafu Swordstick
-Kuro Tsurubami
-Iron Fang
-Caro Tesla
-Magi Klug
-Magic Feather
-Magi Vein
-Elflame
-Whirlwind
-Metal Wings
-Vita Cores
-Fairy Peace
-Elsand
-Empress Soul
-Magic Brooch
-Jade Wings
-La Lluvia
-Icecrystal Icicle
-Layered Magic System
-Aranea Ore
-El Vento
-Floral Light
-Wrath of Vulcan
-Wood Sword
-Shortsword
-Longsword
-Gladius
-Sabre
-Brutal Dragon Sword
-Adel Sword
-Rapier
-Sword of Sin
-Scimitar
-Blitz Sword
-Phyto Blade
-Black Sword of Delusion
-Ilwoon
-Icebrand Glacier
-Indigo Sword
-Dark General's Sword
-Soldier Sword
-Imperial Sword
-Leve Fang
-Zahhak Sword
-Cake Sword
-Festival Sword
-Rod
-Wind Staff
-Mage Rod
-Minotaur Staff
-Water Staff
-Rock Staff
-Ooze Staff
-Fire Staff
-Mace of Destruction
-Storm Staff
-Folium Staff
-Crystal Wand
-Scrader Mace
-Devil's Staff
-Icestaff Frigus
-Sage Staff
-Bexiz Staff
-Priest Mace
-Vulcan Staff
-Crystal Rod
-Spirit's Tear
-Iron Blade
-Heavy Blade
-Great Sword
-Longblade
-Bone Blade
-Volcanic Sword
-Fortis Blade
-Iron Exoskeleton Sword
-Flamberge
-Berserker Blade
-Hammerfall
-Desert Anfel
-Flame Blade
-Frostbrand Rime
-Desperanza
-Sealing Blade
-Wind Plunder
-Sinergatis
-Zweihander
-Waldfee
+recipe list
+adventure garb
+leather armor
+warrior mail
+mage robe
+hunter's garb
+straye garb
+forest wolf garb
+fightwear
+plate armor
+magic crystal armor
+brutal dragon armor
+green dragon garb
+aqua garb
+ooze armor
+scale armor
+oracle robe
+killer coat
+knight armor
+magic swordsman's garb
+medic coat
+outerworld armor
+brigandine
+armigma
+praetor suit
+twilight dress
+assassin garb
+fortistra
+holy robe
+fortuita vestibus
+diomedea suit
+mozt armor
+bow
+hard wood bow
+long bow
+iron bow
+forest wolf bow
+metal horn bow
+steel leaf bow
+iron exoskeleton bow
+huge steel bow
+blaster bow
+ring bow
+desert mentum
+grand horn bow
+icebow verglas
+panzer bow
+skeleton bow
+leve bow
+seffed bow
+thunderbolt bow
+bowgun
+sword bowgun
+iron barrel
+short musket
+hunter bowgun
+axe bowgun
+war bowgun
+magic bowgun
+archer bowgun
+edged bowgun
+empress bowgun
+assault barrel
+scrader barrel
+plasma gun
+ice gun hail
+double strings
+bexiz bowgun
+bayonet
+metal bowgun
+rifled musket
+fusee trahison
+spear
+glaive
+heavy spear
+magic crystal spear
+bardiche
+trident
+blade lance
+mauez's pole
+mezraq
+knight lance
+floral lance
+thunder spear
+ice spear glaso
+pollaxe
+intruder
+paladin spear
+battle spear
+noble glaive
+einsamkeit
+knuckles
+iron knuckles
+knuckle duster
+minotaur knuckles
+claws
+volcanic claws
+jamadhar
+hard knuckles
+iron thorns
+berserker cestuses
+tri claws
+emeldia
+katar
+iceclaw snow
+devil claws
+gardien
+epetal
+zaif sadik
+iron bear claw
+chakrums
+shirasaya
+nameless uchigatana
+aobato
+kuwagumo
+minotaur katana
+kiraboshi
+tatetsuba
+ooze lamina
+koga koshirae
+shura koshirae
+faldios
+sumire renkyoku
+ice katana ace
+kuro momiji
+mafu swordstick
+kuro tsurubami
+iron fang
+caro tesla
+magi klug
+magic feather
+magi vein
+elflame
+whirlwind
+metal wings
+vita cores
+fairy peace
+elsand
+empress soul
+magic brooch
+jade wings
+la lluvia
+icecrystal icicle
+layered magic system
+aranea ore
+el vento
+floral light
+wrath of vulcan
+wood sword
+shortsword
+longsword
+gladius
+sabre
+brutal dragon sword
+adel sword
+rapier
+sword of sin
+scimitar
+blitz sword
+phyto blade
+black sword of delusion
+ilwoon
+icebrand glacier
+indigo sword
+dark general's sword
+soldier sword
+imperial sword
+leve fang
+zahhak sword
+cake sword
+festival sword
+rod
+wind staff
+mage rod
+minotaur staff
+water staff
+rock staff
+ooze staff
+fire staff
+mace of destruction
+storm staff
+folium staff
+crystal wand
+scrader mace
+devil's staff
+icestaff frigus
+sage staff
+bexiz staff
+priest mace
+vulcan staff
+crystal rod
+spirit's tear
+iron blade
+heavy blade
+great sword
+longblade
+bone blade
+volcanic sword
+fortis blade
+iron exoskeleton sword
+flamberge
+berserker blade
+hammerfall
+desert anfel
+flame blade
+frostbrand rime
+desperanza
+sealing blade
+wind plunder
+sinergatis
+zweihander
+waldfee

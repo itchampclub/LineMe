@@ -29,9 +29,10 @@ if($lentext >= 1){
     $keytext = strtolower($keytext);
 
     $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
-    $num = array_search(str_replace($keytext." ","",$text), strtolower($arrayme));
+    $num = array_search(str_replace($keytext." ","",$text), $arrayme);
     $arrayme = explode("\n", file_get_contents($keytext."/info.txt"));
     $arrtext = explode("\t",$arrayme[$num]);
+
     switch ($keytext) {
       case 'recipe':
         $result  = $arrtext[0]." [".$arrtext[1]."] [Lv ".$arrtext[2]." |Dif ".$arrtext[3]."]\n";
