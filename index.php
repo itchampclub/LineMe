@@ -33,9 +33,9 @@ if($lentext >= 1){
 
     switch ($keytext) {
       case 'recipe':
-        $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
+        $arrayme = explode("\n", file_get_contents("recipe/key.txt"));
         $num = array_search(str_replace($keytext." ","",$text), $arrayme);
-        $arrayme = explode("\n", file_get_contents($keytext."/info.txt"));
+        $arrayme = explode("\n", file_get_contents("recipe/info.txt"));
         $arrtext = explode("\t",$arrayme[$num]);
 
         $result  = $arrtext[0]." [".$arrtext[1]."] [Lv ".$arrtext[2]." |Dif ".$arrtext[3]."]\n";
@@ -50,9 +50,9 @@ if($lentext >= 1){
         break;
       case 'farm':
       case 'farming':
-        $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
+        $arrayme = explode("\n", file_get_contents("farming/key.txt"));
         $num = array_search($text, $arrayme);
-        $arrayme = explode("~~~", file_get_contents($keytext."/info.txt"));
+        $arrayme = explode("~~~", file_get_contents("/farminginfo.txt"));
         $result = $arrayme[$num];
         $bot->reply($result);
         break;
