@@ -52,11 +52,16 @@ if($lentext >= 1){
       case 'farming':
         $arrayme = explode("\n", file_get_contents("farming/key.txt"));
         $num = array_search($text, $arrayme);
-        $arrayme = explode("~~~", file_get_contents("/farminginfo.txt"));
+        $arrayme = explode("~~~", file_get_contents("farming/info.txt"));
         $result = $arrayme[$num];
         $bot->reply($result);
         break;
       case 'lvling':
+        $arrayme = explode("\n", file_get_contents("lvling/key.txt"));
+        $num = array_search(str_replace($keytext." ","",$text), $arrayme);
+        $arrayme = explode("\n", file_get_contents("lvling/info.txt"));
+        $arrtext = explode("\t",$arrayme[$num]);
+
         if($num >= 1 && $num <= 160){
           $result = $arrtext[0];
           $bot->reply($result);
