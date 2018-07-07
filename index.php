@@ -77,16 +77,14 @@ if($lentext >= 1){
         if($num > 0){$bot->reply($result);}
         break;
       default:
-        Checkmessage($userid,$text);
+        $arrayme = explode("\n", file_get_contents("shuiyin/key.txt"));
+        $num = array_search(strtolower($text), $arrayme);
+        $arrayme = explode("\n", file_get_contents("shuiyin/info.txt"));
+        $result = $arrayme[$num];
+        $bot->reply($result);  
         break;
     }
   }
-}else{
-  $arrayme = explode("\n", file_get_contents("shuiyin/key.txt"));
-  $num = array_search(strtolower($text), $arrayme);
-  $arrayme = explode("\n", file_get_contents("shuiyin/info.txt"));
-  $result = $arrayme[$num];
-  $bot->reply($result);  
 }
 
 ?>
