@@ -64,7 +64,7 @@ if($lentext >= 1){
 
         if($num >= 1 && $num <= 160){
           $result = "";
-          for ($i = 1; $i < count($arrtext) ; $i++) {$result .= $value; if($i == count($arrtext)-1){$result .= "\n";}}
+          for ($i = 1; $i < count($arrtext) ; $i++) {$result .= $arrtext[$i]; if($i == count($arrtext)-1){$result .= "\n";}}
 
           $bot->reply($result);
         }else if($num >= 161){
