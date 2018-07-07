@@ -1,179 +1,167 @@
 
-Normal : Any monster level 1 - 10\n Mini Boss: None\n Boss: Boss Colon
-Normal : Any monster level 1 - 10\n Mini Boss: None\n Boss: Boss Colon
-Normal : Any monster level 1 - 10\n Mini Boss: None\n Boss: Boss Colon
-Normal : Any monster level 1 - 10\n Mini Boss: None\n Boss: Boss Colon
-Normal : Any monster level 1 - 10\n Mini Boss: None\n Boss: Boss Colon
-Normal : Any monster level 1 - 10\n Mini Boss: None\n Boss: Boss Colon
-Normal : Any monster level 1 - 10\n Mini Boss: None\n Boss: Boss Colon
-Normal : Any monster level 1 - 10\n Mini Boss: None\n Boss: Boss Colon
-Normal : Any monster level 1 - 10\n Mini Boss: None\n Boss: Boss Colon
-Normal : Any monster level 1 - 10\n Mini Boss: None\n Boss: Boss Colon
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
-On Update
+1	Normal:	Any monster level 1 - 10	Mini Boss:	None	Boss:	Boss Colon [Lv10]
+2	Normal:	Any monster level 1 - 10	Mini Boss:	None	Boss:	Boss Colon [Lv10]
+3	Normal:	Any monster level 1 - 10	Mini Boss:	None	Boss:	Boss Colon [Lv10]
+4	Normal:	Any monster level 1 - 10	Mini Boss:	None	Boss:	Boss Colon [Lv10]
+5	Normal:	Any monster level 1 - 10	Mini Boss:	None	Boss:	Boss Colon [Lv10]
+6	Normal:	Any monster level 1 - 10	Mini Boss:	None	Boss:	Boss Colon [Lv10]
+7	Normal:	Any monster level 1 - 10	Mini Boss:	None	Boss:	Boss Colon [Lv10]
+8	Normal:	Any monster level 1 - 10	Mini Boss:	None	Boss:	Boss Colon [Lv10]
+9	Normal:	Any monster level 1 - 10	Mini Boss:	None	Boss:	Boss Colon [Lv10]
+10	Normal:	Any monster level 1 - 10	Mini Boss:	None	Boss:	Boss Colon [Lv10]
+11	On Update
+12	On Update
+13	On Update
+14	On Update
+15	On Update
+16	On Update
+17	On Update
+18	On Update
+19	On Update
+20	On Update
+21	On Update
+22	On Update
+23	On Update
+24	On Update
+25	On Update
+26	On Update
+27	On Update
+28	On Update
+29	On Update
+30	On Update
+31	On Update
+32	On Update
+33	On Update
+34	On Update
+35	On Update
+36	On Update
+37	On Update
+38	On Update
+39	On Update
+40	On Update
+41	On Update
+42	On Update
+43	On Update
+44	On Update
+45	On Update
+46	On Update
+47	On Update
+48	On Update
+49	On Update
+50	On Update
+51	On Update
+52	On Update
+53	On Update
+54	On Update
+55	On Update
+56	On Update
+57	On Update
+58	On Update
+59	On Update
+60	On Update
+61	On Update
+62	On Update
+63	On Update
+64	On Update
+65	On Update
+66	On Update
+67	On Update
+68	On Update
+69	On Update
+70	On Update
+71	On Update
+72	On Update
+73	On Update
+74	On Update
+75	On Update
+76	On Update
+77	On Update
+78	On Update
+79	On Update
+80	On Update
+81	On Update
+82	On Update
+83	On Update
+84	On Update
+85	On Update
+86	On Update
+87	On Update
+88	On Update
+89	On Update
+90	On Update
+91	On Update
+92	On Update
+93	On Update
+94	On Update
+95	On Update
+96	On Update
+97	On Update
+98	On Update
+99	On Update
+100	On Update
+101	On Update
+102	On Update
+103	On Update
+104	On Update
+105	On Update
+106	On Update
+107	On Update
+108	On Update
+109	On Update
+110	On Update
+111	On Update
+112	On Update
+113	On Update
+114	On Update
+115	On Update
+116	On Update
+117	On Update
+118	On Update
+119	On Update
+120	On Update
+121	On Update
+122	On Update
+123	On Update
+124	On Update
+125	On Update
+126	On Update
+127	On Update
+128	On Update
+129	On Update
+130	On Update
+131	On Update
+132	On Update
+133	On Update
+134	On Update
+135	On Update
+136	On Update
+137	On Update
+138	On Update
+139	On Update
+140	On Update
+141	On Update
+142	On Update
+143	On Update
+144	On Update
+145	On Update
+146	On Update
+147	On Update
+148	On Update
+149	On Update
+150	On Update
+151	On Update
+152	On Update
+153	On Update
+154	On Update
+155	On Update
+156	On Update
+157	On Update
+158	On Update
+159	On Update
+160	On Update
+161	On Update
+162	On Update
+163	On Update
+164	On Update
+165	On Update
+166	On Update
