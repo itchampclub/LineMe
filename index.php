@@ -8,6 +8,8 @@ $userid  = $bot->getUserID();
 $user    = $bot->getProfile($userid);
 $profile = $user->getJSONDecodedBody();
 //$text = "Recipe Adventure Garb";
+$text = "Farming Metal";
+//$text = "Recipe Adventure Garb";
 $arrtext = explode(" ", $text);
 $lentext = count($arrtext);
 $keytext = $arrtext[0];
@@ -28,10 +30,9 @@ if($lentext >= 1){
   }else if(strtolower($keytext) == "farming"){
     $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
     $num = array_search($text, $arrayme);
-    echo "<br>".$num;
     $arrayme = explode("~~~", file_get_contents($keytext."/info.txt"));
     $result = $arrayme[$num];
-   // echo "<br>".$result;
+    echo "<br>".$result;
     $bot->reply($result);
   }else{
     $text    = strtolower($text);
