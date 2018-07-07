@@ -31,13 +31,13 @@ if($lentext >= 1){
     $text    = strtolower($text);
     $keytext = strtolower($keytext);
 
-    $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
-    $num = array_search(str_replace($keytext." ","",$text), $arrayme);
-    $arrayme = explode("\n", file_get_contents($keytext."/info.txt"));
-    $arrtext = explode("\t",$arrayme[$num]);
-
     switch ($keytext) {
       case 'recipe':
+        $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
+        $num = array_search(str_replace($keytext." ","",$text), $arrayme);
+        $arrayme = explode("\n", file_get_contents($keytext."/info.txt"));
+        $arrtext = explode("\t",$arrayme[$num]);
+
         $result  = $arrtext[0]." [".$arrtext[1]."] [Lv ".$arrtext[2]." |Dif ".$arrtext[3]."]\n";
         $result .= "Materials: \n".$arrtext[4]." ".$arrtext[5];
         if($arrtext[6]  != "-" && $arrtext[6]  != ""){$result .= "\n".$arrtext[6] ." ".$arrtext[7];}
@@ -48,6 +48,7 @@ if($lentext >= 1){
         break;
       case 'item':
         break;
+      case 'farm':
       case 'farming':
         $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
         $num = array_search($text, $arrayme);
@@ -66,7 +67,6 @@ if($lentext >= 1){
         break;
       case 'quest':
         $result = "Quest Name: ".$arrtext[0];
-        //
         if($num > 0){$bot->reply($result);}
         break;
       default:
