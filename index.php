@@ -63,7 +63,9 @@ if($lentext >= 1){
         $arrtext = explode("\t",$arrayme[$num]);
 
         if($num >= 1 && $num <= 160){
-          $result = $arrtext[0];
+          $result = "";
+          for ($i = 1; $i < count($arrtext) ; $i++) {$result .= $value; if($i == count($arrtext)-1){$result .= "\n";}}
+
           $bot->reply($result);
         }else if($num >= 161){
           $result = "Wait For Next Update.";
