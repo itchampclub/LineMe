@@ -27,14 +27,6 @@ if($lentext >= 1){
       $result = $arrayme[$num];
       $bot->reply($result);
     }
-
-  }else if(strtolower($keytext) == "farming"){
-    $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
-    $num = array_search($text, $arrayme);
-    $arrayme = explode("~~~", file_get_contents($keytext."/info.txt"));
-    $result = $arrayme[$num];
-    echo "<br>".$result;
-    $bot->reply($result);
   }else{
     $text    = strtolower($text);
     $keytext = strtolower($keytext);
@@ -55,6 +47,13 @@ if($lentext >= 1){
         if($num > 0){$bot->reply($result);}
         break;
       case 'item':
+        break;
+      case 'farming':
+        $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
+        $num = array_search($text, $arrayme);
+        $arrayme = explode("~~~", file_get_contents($keytext."/info.txt"));
+        $result = $arrayme[$num];
+        $bot->reply($result);
         break;
       case 'lvling':
         if($num >= 1 && $num <= 160){
