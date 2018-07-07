@@ -14,7 +14,8 @@ $arrtext = explode(" ", $text);
 $lentext = count($arrtext);
 $keytext = $arrtext[0];
 
-//echo "<br>".$text;
+echo "<br>".$text;
+echo "<br>".$keytext;
 
 if($lentext >= 1){
   if(strtolower($keytext) == "shuiyin"){
