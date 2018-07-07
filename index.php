@@ -8,14 +8,14 @@ $userid  = $bot->getUserID();
 //$user    = $bot->getProfile($userid);
 //$profile = $user->getJSONDecodedBody();
 //$text = "Recipe Adventure Garb";
-$text = "Farming Metal";
+//$text = "Farming Metal";
 //$text = "Recipe Adventure Garb";
 $arrtext = explode(" ", $text);
 $lentext = count($arrtext);
 $keytext = $arrtext[0];
 
-echo "<br>".$text;
-echo "<br>".$keytext;
+//echo "<br>".$text;
+//echo "<br>".$keytext;
 
 if($lentext >= 1){
   if(strtolower($keytext) == "shuiyin"){
