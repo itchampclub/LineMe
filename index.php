@@ -5,19 +5,26 @@ require_once __DIR__ . '/Linebot.php';
 $bot = new Linebot();
 $text = $bot->getMessageText();
 $userid  = $bot->getUserID();
+$user    = $bot->getProfile($userid);
+$profile = $user->getJSONDecodedBody();
 //$text = "Recipe Adventure Garb";
 $arrtext = explode(" ", $text);
 $lentext = count($arrtext);
 $keytext = $arrtext[0];
 
 //echo "<br>".$text;
-$file = "Shuiyin/key.txt";
-file_put_contents($file, $text);
 
 if($lentext >= 1){
   if(strtolower($keytext) == "shuiyin"){
     //echo "<br>".$keytext;
-    if(strtolower($text) == "shuiyin help"){$bot->reply(file_get_contents('Info.txt'));}
+    if(strtolower($text) == "shuiyin help"){$bot->reply(file_get_contents('Info.txt'));}else{
+      $arrayme = explode("\n", file_get_contents("shuiyin/key.txt"));
+      $num = array_search($text, $arrayme);
+      $arrayme = explode("\n", file_get_contents("shuiyin/info.txt"));
+      $result = $arrayme[$num];
+      $bot->reply($result);
+    }
+
   }else if(strtolower($keytext) == "farming"){
     $arrayme = explode("\n", file_get_contents($keytext."/key.txt"));
     $num = array_search($text, $arrayme);
@@ -47,7 +54,14 @@ if($lentext >= 1){
         break;
       case 'item':
         break;
-      case 'leveling':
+      case 'lvling':
+        if($num >= 1 && $num <= 160){
+          $result = $arrtext[0];
+          $bot->reply($result);
+        }else if($num >= 161){
+          $result = "Wait For Next Update.";
+          $bot->reply($result);
+        }
         break;
       case 'quest':
         $result = "Quest Name: ".$arrtext[0];
@@ -59,6 +73,12 @@ if($lentext >= 1){
         break;
     }
   }
+}else{
+  $arrayme = explode("\n", file_get_contents("shuiyin/key.txt"));
+  $num = array_search(strtolower($text), $arrayme);
+  $arrayme = explode("\n", file_get_contents("shuiyin/info.txt"));
+  $result = $arrayme[$num];
+  $bot->reply($result);  
 }
 
 ?>
