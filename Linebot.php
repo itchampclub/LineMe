@@ -142,5 +142,16 @@ class Linebot {
 		$userId = $webhook->{"events"}[0]->{"source"}->{"userId"}; 
 		return $userId;
 	}
-
+	public function getUserProfile($userId){
+		$httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($this->channelAccessToken);
+		$bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $this->channelSecret]);
+		$response = $bot->getProfile($userId);
+		if ($response->isSucceeded()) {
+		    $profile = $response->getJSONDecodedBody();
+		    echo $profile['displayName'];
+		    echo $profile['pictureUrl'];
+		    echo $profile['statusMessage'];
+		}
+		return $profile['displayName'];
+	}
 }
