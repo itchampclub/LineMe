@@ -10,7 +10,7 @@ $userprofile  = $bot->getUserProfile($userid);
 
 echo "<br>".$userprofile['displayName'];
 
-$bot->pushText($userid,$userprofile.displayname);
+$bot->pushText($userid,$userprofile['displayname']);
 $arrtext = explode(" ", $text);
 $lentext = count($arrtext);
 $keytext = $arrtext[0];
