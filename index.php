@@ -9,7 +9,8 @@ $userid  = $bot->getUserID();
 $userid  = "U08b392c8b5b02d5c2605b02b94186104";
 if($userid == "U08b392c8b5b02d5c2605b02b94186104"){
   $user    = $bot->getUserProfile($userid);
-  echo $user;
+  echo "Testing Get user ID";
+  echo "\nUser: ".$user;
   $bot->pushText($userid,$user);
 }
 //$profile = $user->getJSONDecodedBody();
