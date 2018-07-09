@@ -17,10 +17,6 @@ class Setting{
     $api = "https://api.line.me/v2/bot/message/push";
     Return $api;
   }
-  public function getUserProfile($UserId){
-    $api = "https://api.line.me/v2/bot/profile/".$userId;
-    return $api;
-  }
   /*
   // Post
   public function getAccessToken(){
