@@ -145,7 +145,7 @@ class Linebot {
 	public function getUserProfile($UserId){
 		$userProfile = "https://api.line.me/v2/bot/profile/".$userId;
 		echo "Profile Test: ";
-		echo "<br>".$userProfile[0];
+		echo "<br>".$userProfile;
 		echo "<br>".count($userProfile);
 		return $userProfile;
 	}
