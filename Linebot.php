@@ -143,17 +143,4 @@ class Linebot {
 		return $userId;
 	}
 
-	public function getUserProfile($userProfile){
-		if ($userProfile->isSucceeded()) {
-		    $profile = $userProfile->getJSONDecodedBody();
-		    echo "<br>".$profile['displayName'];
-		    echo "<br>".$profile['pictureUrl'];
-		    echo "<br>".$profile['statusMessage'];
-		}
-	}
-	//$api = "https://api.line.me/v2/bot/profile/".$userId."\ -H 'Authorization: Bearer ".$this->channelAccessToken."'";
-		$result = $this->httpPost($api, $body);
-		echo "First Result: ".$result."<br>";
-		return $profile['displayName'];
-	}	
 }
