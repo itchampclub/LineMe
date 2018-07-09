@@ -7,13 +7,10 @@ $text = $bot->getMessageText();
 $userid  = $bot->getUserID();
 //$bot->pushText($userid,"Your user ID: ".$userid);
 $userid  = "U08b392c8b5b02d5c2605b02b94186104";
-if($userid == "U08b392c8b5b02d5c2605b02b94186104"){
-  $user    = $bot->getProfile($userid);
-  echo "Testing Get user ID";
-  echo "\nUser: ".$user;
-  $bot->pushText($userid,$user);
-}
-//$profile = $user->getJSONDecodedBody();
+$userme    = $bot->getProfile($userid);
+echo "Testing Get user ID";
+echo "\nUser: ".$userme;
+$bot->pushText($userid,$userme);
 //$text = "Recipe Adventure Garb";
 //$text = "Farming Metal";
 //$text = "Recipe Adventure Garb";
