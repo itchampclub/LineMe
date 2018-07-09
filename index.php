@@ -8,9 +8,9 @@ $userid  = $bot->getUserID();
 $userid  = "U08b392c8b5b02d5c2605b02b94186104";
 $userprofile  = $bot->getUserProfile($userid);
 
-echo "<br>".$userprofile;
+echo "<br>".$userprofile.displayname;
 
-$bot->pushText($userid,$userprofile);
+$bot->pushText($userid,$userprofile.displayname);
 $arrtext = explode(" ", $text);
 $lentext = count($arrtext);
 $keytext = $arrtext[0];
