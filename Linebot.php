@@ -147,9 +147,9 @@ class Linebot {
 		$userId = $webhook->{"events"}[0]->{"source"}->{"userId"};
 		$userProfile = $webhook->{"events"}[0]->{"source"}->{"displayName"};
 		$userpictureUrl = $webhook->{"events"}[0]->{"source"}->{"pictureUrl"};
-		echo "<br>UserProfile : "$userId;
-		echo "<br>UserProfile : "$userProfile;
-		echo "<br>UserProfile : "$userpictureUrl;
+		echo "<br>UserProfile : ".$userId;
+		echo "<br>UserProfile : ".$userProfile;
+		echo "<br>UserProfile : ".$userpictureUrl;
 		return $userProfile;
 	}
 }
