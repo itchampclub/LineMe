@@ -143,7 +143,7 @@ class Linebot {
 		return $userId;
 	}
 	public function getUserProfile($UserId){
-		$userProfile = "https://api.line.me/v2/bot/profile/".$userId;
+		$userProfile = 'https://api.line.me/v2/bot/profile/'.$userId\ -H 'Authorization: Bearer '.$channelAccessToken;
 		return $userProfile;
 	}
 	
