@@ -6,7 +6,7 @@ $bot = new Linebot();
 $text = $bot->getMessageText();
 $userid  = $bot->getUserID();
 $userid  = "U08b392c8b5b02d5c2605b02b94186104";
-$result = $bot->getUserProfile($userid);
+$result = $bot->getUserProfile();
 echo "Result Get User Profile:";
 echo "<br>".$result;
 
