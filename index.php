@@ -5,8 +5,11 @@ require_once __DIR__ . '/Linebot.php';
 $bot = new Linebot();
 $text = $bot->getMessageText();
 $userid  = $bot->getUserID();
-$bot->pushText($userid,"Your user ID: ".$userid);
-$user    = $bot->getUserProfile($userid);
+//$bot->pushText($userid,"Your user ID: ".$userid);
+if($userid = "U08b392c8b5b02d5c2605b02b94186104"){
+  $user    = $bot->getUserProfile($userid);
+  $bot->pushText($userid,$user);
+}
 //$profile = $user->getJSONDecodedBody();
 //$text = "Recipe Adventure Garb";
 //$text = "Farming Metal";
