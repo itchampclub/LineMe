@@ -143,7 +143,7 @@ class Linebot {
 		return $userId;
 	}
 
-	public function getUserProfile($UserId){
+	public function getUserProfile($userId){
 //		$webhook = $this->webhookEventObject;
 		$userProfile = "https://api.line.me/v2/bot/profile/".$userId."\ -H 'Authorization: Bearer ".$this->channelAccessToken."'";
 		return $userProfile;
