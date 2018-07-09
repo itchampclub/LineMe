@@ -6,8 +6,10 @@ $bot = new Linebot();
 $text = $bot->getMessageText();
 $userid  = $bot->getUserID();
 //$bot->pushText($userid,"Your user ID: ".$userid);
-if($userid = "U08b392c8b5b02d5c2605b02b94186104"){
+$userid  = "U08b392c8b5b02d5c2605b02b94186104";
+if($userid == "U08b392c8b5b02d5c2605b02b94186104"){
   $user    = $bot->getUserProfile($userid);
+  echo $user;
   $bot->pushText($userid,$user);
 }
 //$profile = $user->getJSONDecodedBody();
