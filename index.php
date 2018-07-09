@@ -7,10 +7,10 @@ $text = $bot->getMessageText();
 $userid  = $bot->getUserID();
 $userid  = "U08b392c8b5b02d5c2605b02b94186104";
 $userprofile  = $bot->getUserProfile($userid);
+
+echo "<br>".$userprofile;
+
 $bot->pushText($userid,$userprofile);
-//$text = "Recipe Adventure Garb";
-//$text = "Farming Metal";
-//$text = "Recipe Adventure Garb";
 $arrtext = explode(" ", $text);
 $lentext = count($arrtext);
 $keytext = $arrtext[0];
