@@ -87,16 +87,4 @@ if($lentext >= 1){
     }
   }
 }
-//date_default_timezone_set("Asia/Jakarta");
-$date = "2018-07-26 23:00:00";
-$numdate = date("d-m-Y H:i:s",strtotime($date));
-echo "<br>".date("d-m-Y H:i:s");
-echo "<br>".date("i:s");
-while($numdate >= date("d-m-Y H:i:s")){
-   if(date("s") == "00"){$bot->reply(date("d-m-Y H:i:s")." AND ".$numdate);}
-   if(date("s") == "15"){$bot->reply(date("d-m-Y H:i:s")." AND ".$numdate);}
-   if(date("s") == "30"){$bot->reply(date("d-m-Y H:i:s")." AND ".$numdate);}
-   if(date("s") == "45"){$bot->reply(date("d-m-Y H:i:s")." AND ".$numdate);}
-}
-//
 ?>
