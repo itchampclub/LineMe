@@ -52,6 +52,7 @@ if($lentext >= 1){
       case 'farm':
       case 'farming':
         $arrayme = explode("\n", file_get_contents("farming/key.txt"));
+        $text = if($keytext == 'farm'){str_replace("farm","farming",$text);}
         $num = array_search($text, $arrayme);
         $arrayme = explode("~~~", file_get_contents("farming/info.txt"));
         $result = $arrayme[$num];
