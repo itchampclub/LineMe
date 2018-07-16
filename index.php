@@ -93,7 +93,7 @@ $numdate = date("d-m-Y H:i:s",strtotime($date));
 echo "<br>".date("d-m-Y H:i:s");
 echo "<br>".date("i:s");
 while($numdate >= date("d-m-Y H:i:s")){
-   if(date("i:s") == "00:00"){$bot->reply("Important Announcement.");}
+   if(date("s") == "00"){$bot->reply("Important Announcement.");}
 }
 //
 ?>
