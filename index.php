@@ -80,7 +80,7 @@ if($lentext >= 1){
         break;
       default:
         $arrayme = explode("\n", file_get_contents("shuiyin/key.txt"));
-        $num = array_search(strtolower($text), $arrayme);
+        $num = array_search($text, $arrayme);
         $arrayme = explode("\n", file_get_contents("shuiyin/info.txt"));
         $result = $arrayme[$num];
         $bot->reply($result);  
