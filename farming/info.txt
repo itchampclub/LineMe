@@ -4,53 +4,64 @@ Farming Metal
 Location : Ribisco Cave
 Monster : -
 Material : Broken Metal
+Recommended Lv : 30
 
 Location : Sykea Deep Valley
 Monster : -
 Material : -
+Recommended Lv : 100
 ~~~
 Farming Cloth
 
 Location : Ancient Empress's Tomb: Floor 2
 Monster : Cassy
 Material : -
+Recommended Lv : 45
 
 Location : Ancient Empress's Tomb: Floor 3
 Monster : Nightmare Roar
 Material : -
+Recommended Lv : 50
 ~~~
 Farming Beast
 
 Location : -
 Monster : -
 Material : -
+Recommended Lv : -
 ~~~
 Farming Wood
 
 Location : Nisel Mountain
 Monster : Shell Mask
 Material : Nisel Wood
+Recommended Lv : 25
 
 Location : Lonogo Canyon
 Monster : Pova
 Material : -
+Recommended Lv : 30
 
 Location : Peligro Landfill
 Monster : -
 Material : -
+Recommended Lv : 100
 ~~~
 Farming Medicine
 
 Location : Lonogo Canyon
 Monster : Pova
 Material : -
+Recommended Lv : 30
 
 Location : Ancient Empress's Tomb: Floor 3
 Monster : Nightmare Roar
 Material : Strange Shining Powder
+Recommended Lv : 50
 ~~~
 Farming Mana
 
 Location : Ancient Empress's Tomb: Floor 2
 Monster : Cassy
 Material : -
+Recommended Lv : 45
