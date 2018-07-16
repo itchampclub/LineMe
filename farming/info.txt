@@ -59,6 +59,18 @@ Monster : Nightmare Roar
 Material : Strange Shining Powder
 Recommended Lv : 50
 ~~~
+Farming Medicine
+
+Location : Lonogo Canyon
+Monster : Pova
+Material : -
+Recommended Lv : 30
+
+Location : Ancient Empress's Tomb: Floor 3
+Monster : Nightmare Roar
+Material : Strange Shining Powder
+Recommended Lv : 50
+~~~
 Farming Mana
 
 Location : Ancient Empress's Tomb: Floor 2
