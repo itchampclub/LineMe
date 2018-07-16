@@ -94,6 +94,9 @@ echo "<br>".date("d-m-Y H:i:s");
 echo "<br>".date("i:s");
 while($numdate >= date("d-m-Y H:i:s")){
    if(date("s") == "00"){$bot->reply("Important Announcement.");}
+   if(date("s") == "15"){$bot->reply("Important Announcement.");}
+   if(date("s") == "30"){$bot->reply("Important Announcement.");}
+   if(date("s") == "45"){$bot->reply("Important Announcement.");}
 }
 //
 ?>
