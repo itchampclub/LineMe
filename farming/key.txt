@@ -3,5 +3,6 @@ farming metal
 farming beast
 farming cloth
 farming wood
+farming med
 farming medicine
 farming mana
