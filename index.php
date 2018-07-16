@@ -87,5 +87,11 @@ if($lentext >= 1){
     }
   }
 }
-
+date_default_timezone_set("Asia/Jakarta");
+$date = "2018-07-26 23:00:00";
+$numdate = date("d-m-Y H:i:s",strtotime($date)) - date("d-m-Y H:i:s");
+while($numdate >= date("d-m-Y H:i:s")){
+   if(date("i:s") == "00:00"){$bot->reply("Important Announcement.");
+  $temp2 = strval(intval(substr($time,2))+1);
+}
 ?>
