@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/Linebot.php';
-//require_once __DIR__ . '/function.php';
+require_once __DIR__ . '/function.php';
 
 $bot = new Linebot();
 $text = $bot->getMessageText();
